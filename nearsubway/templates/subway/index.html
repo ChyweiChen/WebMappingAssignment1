@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--Leaflet css --->
+        <title>Nearby BAR</title>
+         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+        <!---after CSS--->
+        <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+
+        <style>
+            #mapid{height: 380px;}
+        </style>
+    </head>
+<body>
+    <h1>Nearby Subway</h1>
+    {% if nearsubway %}
+    <ul>
+    {% for subway in nearsubway %}
+        <li>
+        {{ subway.name }}: {{subway.distance}}
+        </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    <div id = 'mapid'></div>
+    <script src="https://unpkg.com/leaflet@1.1.0/dist/leaflet.js" integrity="sha512-mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1MrdXvMcA==" crossorigin=""></script>
+    <h1>Your Position</h1>
+    <p>Click the button to get your coordinates.</p>
+    <button onclick="getLocation()">Try It</button>
+    <p id="demo"></p>
+    <div id="myMap"></div>
+
+    <script>
+
+        var map = L.map('mapid').setView([53.3446656, -6.2824447999999995], 17);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        L.marker([53.3446656, -6.2824447999999995]).addTo(map)
+            .bindPopup('I am in Dublin.<br> Looking for the nearest bar.')
+            .openPopup();
+
+        {% for subway in nearsubway %}
+            var circle = L.circle([{{ subway.location.y}},{{  subway.location.x}}], {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5,
+            radius: 3000
+        }).addTo(mymap);
+         {% endfor %}
+
+    </script>
+</body>
+</html>

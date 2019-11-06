@@ -1,0 +1,5086 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-11-06T00:31:02Z",
+    "timestamp_areas_base": "2019-11-05T23:55:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2048131495,
+      "lat": 53.3316744,
+      "lon": -6.2175563,
+      "tags": {
+        "fixme": "Check position. likely a transformer, even if the sign says \"substation\"",
+        "frequency": "50",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "10000",
+        "voltage:primary": "10000",
+        "voltage:secondary": "400"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3394424074,
+      "lat": 53.3510944,
+      "lon": -6.2499717,
+      "tags": {
+        "building": "yes",
+        "frequency": "50",
+        "name": "Connolly Luas Substation",
+        "operator": "Luas - Transdev Dublin Light Rail Limited",
+        "phases": "3",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "low"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3595999379,
+      "lat": 53.3394284,
+      "lon": -6.2609333,
+      "tags": {
+        "addr:street": "St. Stephen's Green",
+        "frequency": "50",
+        "location": "underground",
+        "name": "St. Stephen's Green Luas Substation",
+        "operator": "Luas - Transdev Dublin Light Rail Limited",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "750"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3810570500,
+      "lat": 53.3305828,
+      "lon": -6.2586283,
+      "tags": {
+        "addr:street": "Grand Parade",
+        "building": "yes",
+        "frequency": "50",
+        "layer": "1",
+        "location": "indoor",
+        "name": "Charlemont Luas Substation",
+        "operator": "Luas - Transdev Dublin Light Rail Limited",
+        "phases": "3",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "750"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4041712391,
+      "lat": 53.3470187,
+      "lon": -6.2771827,
+      "tags": {
+        "addr:street": "Lincoln Lane",
+        "frequency": "50",
+        "location": "indoor",
+        "name": "Smithfield Luas Substation",
+        "operator": "Luas - Transdev Dublin Light Rail Limited",
+        "phases": "3",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "750"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4726924309,
+      "lat": 53.3563049,
+      "lon": -6.2855238,
+      "tags": {
+        "frequency": "50",
+        "name": "Grangegorman 110kV Substation",
+        "operator": "EirGrid",
+        "phases": "3",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 45619562,
+      "nodes": [
+        581595926,
+        581595919,
+        581595922,
+        581595924,
+        581595926
+      ],
+      "tags": {
+        "addr:street": "Sheriff Street Lower",
+        "frequency": "50",
+        "name": "Sheriff Street 38kV Station",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 47924359,
+      "nodes": [
+        609484021,
+        4427842636,
+        4427842635,
+        4427842637,
+        4427842638,
+        609484028,
+        4427842669,
+        609484032,
+        609484021
+      ],
+      "tags": {
+        "barrier": "fence",
+        "frequency": "50",
+        "name": "Clonshaugh 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 50257019,
+      "nodes": [
+        638726696,
+        638726709,
+        638726710,
+        638726697,
+        638726696
+      ],
+      "tags": {
+        "building": "industrial",
+        "frequency": "50",
+        "name": "Main Electricity Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "medium-low",
+        "voltage:primary": "medium-low",
+        "voltage:secondary": "low"
+      }
+    },
+    {
+      "type": "way",
+      "id": 50257130,
+      "nodes": [
+        638727300,
+        638727308,
+        638727315,
+        638727309,
+        638727300
+      ],
+      "tags": {
+        "building": "industrial",
+        "frequency": "50",
+        "name": "Steam Turbine GIS",
+        "operator": "EirGrid",
+        "phases": "3",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "110000",
+        "voltage:primary": "low",
+        "voltage:secondary": "110000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61842646,
+      "nodes": [
+        3829939350,
+        770560842,
+        770560817,
+        4229444350,
+        4229444347,
+        3829939350
+      ],
+      "tags": {
+        "addr:street": "Harold's Cross Road",
+        "alt_name": "Harolds Cross 110kV Stn",
+        "building": "yes",
+        "frequency": "50",
+        "name": "Harolds Cross 110kV Station",
+        "operator": "EirGrid",
+        "phases": "3",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "38000",
+        "voltage:tertiary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 102694971,
+      "nodes": [
+        1186078665,
+        1186078928,
+        1186078306,
+        1186079288,
+        1186078665
+      ],
+      "tags": {
+        "addr:street": "Admiral Brown Street",
+        "building": "industrial",
+        "frequency": "50",
+        "name": "Misery Hill Substation",
+        "operator": "EirGrid",
+        "phases": "3",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 154504425,
+      "nodes": [
+        1670320905,
+        1670320904,
+        1670320918,
+        1670320915,
+        1670320905
+      ],
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:street": "Camden Row",
+        "frequency": "50",
+        "name": "Camden Row 38kV Station",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 245044213,
+      "nodes": [
+        2523038646,
+        2523038648,
+        2523038647,
+        2523038645,
+        2523038646
+      ],
+      "tags": {
+        "addr:street": "South Cumberland Street",
+        "building": "industrial",
+        "frequency": "50",
+        "name": "Trinity 110kV Substation",
+        "operator": "EirGrid",
+        "phases": "3",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "38000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 261563988,
+      "nodes": [
+        2671626530,
+        2793687981,
+        2793687980,
+        4378888028,
+        4378888041,
+        2793687979,
+        4378888029,
+        2671626532,
+        2671626530
+      ],
+      "tags": {
+        "addr:street": "Crumlin Road",
+        "frequency": "50",
+        "name": "Crumlin 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 285823895,
+      "nodes": [
+        2894523024,
+        2894522674,
+        4427710703,
+        4427710705,
+        4427710707,
+        4348473016,
+        2894523011,
+        2894522860,
+        4427717582,
+        4427717585,
+        4427717584,
+        2894523024
+      ],
+      "tags": {
+        "building": "industrial",
+        "frequency": "50",
+        "name": "220kV GIS Substation",
+        "operator": "EirGrid",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "220000",
+        "voltage:primary": "220000",
+        "voltage:secondary": "110000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 285823905,
+      "nodes": [
+        2894522621,
+        2894522636,
+        4348472759,
+        2894522823,
+        2894522780,
+        2894522621
+      ],
+      "tags": {
+        "building": "industrial",
+        "frequency": "50",
+        "name": "110kV GIS Substation",
+        "operator": "EirGrid",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "38000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 292326746,
+      "nodes": [
+        2958808398,
+        4385366593,
+        4949214823,
+        6396979012,
+        4385366487,
+        2770789194,
+        2983102638,
+        2770837943,
+        2770866840,
+        2983102648,
+        4385366591,
+        2958808398
+      ],
+      "tags": {
+        "addr:street": "Garville Lane Upper",
+        "frequency": "50",
+        "name": "Garville Avenue 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "low"
+      }
+    },
+    {
+      "type": "way",
+      "id": 295248450,
+      "nodes": [
+        4368929541,
+        4368929539,
+        3059742622,
+        5140975477,
+        5337558058,
+        4368929544,
+        4368929537,
+        4368929533,
+        4368929534,
+        4368929535,
+        4368929536,
+        1873100750,
+        4368929541
+      ],
+      "tags": {
+        "addr:street": "Collins Avenue",
+        "area": "yes",
+        "frequency": "50",
+        "name": "Ballymun 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 296383928,
+      "nodes": [
+        3001747206,
+        6140964424,
+        3001747207,
+        6140964426,
+        3001747208,
+        6140964425,
+        3001747209,
+        3001747210,
+        3001747211,
+        3001747212,
+        3001747213,
+        3001747206
+      ],
+      "tags": {
+        "addr:street": "Warner's Lane",
+        "frequency": "50",
+        "name": "Leeson Street 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 302701930,
+      "nodes": [
+        3069695527,
+        3069695528,
+        4413722590,
+        3069695529,
+        3069695530,
+        3069695527
+      ],
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:postal_district": "D11",
+        "addr:street": "Jamestown Business Park",
+        "frequency": "50",
+        "name": "Unidare 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 350602410,
+      "nodes": [
+        3563488607,
+        4360968205,
+        3563488608,
+        3563488609,
+        4360968200,
+        3563488610,
+        4360968199,
+        3563488607
+      ],
+      "tags": {
+        "addr:street": "Newmarket",
+        "frequency": "50",
+        "name": "Newmarket 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "low"
+      }
+    },
+    {
+      "type": "way",
+      "id": 359657275,
+      "nodes": [
+        3643359375,
+        4427697591,
+        3643359388,
+        4428030879,
+        4428030877,
+        4428030880,
+        4428030881,
+        4428030884,
+        4927961661,
+        4927961665,
+        4927961662,
+        4927961663,
+        4927961664,
+        4927961659,
+        4927961658,
+        3643359386,
+        3643359375
+      ],
+      "tags": {
+        "addr:street": "Pigeon House Road",
+        "frequency": "50",
+        "name": "Ringsend 110kV Substation",
+        "operator": "EirGrid",
+        "phases": "3",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "low",
+        "voltage:secondary": "110000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 366862908,
+      "nodes": [
+        3708443013,
+        3708443004,
+        3708443019,
+        3708443005,
+        3708443017,
+        3708443011,
+        3708443010,
+        3708443009,
+        3708443008,
+        3708443007,
+        3708443006,
+        3708443012,
+        3708443013
+      ],
+      "tags": {
+        "addr:street": "Gloucester Place North",
+        "alt_name": "Gloucester Pl 38 kV Stn",
+        "frequency": "50",
+        "name": "Gloucester Place 38kV Station",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 374690911,
+      "nodes": [
+        443303906,
+        5885102021,
+        3780731662,
+        3780731663,
+        443303905,
+        528772149,
+        3780731661,
+        5885102023,
+        443303906
+      ],
+      "tags": {
+        "addr:street": "Broombridge Road",
+        "barrier": "wall",
+        "frequency": "50",
+        "name": "Cabra 110 kV Substation",
+        "operator": "EirGrid",
+        "phases": "3",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "low"
+      }
+    },
+    {
+      "type": "way",
+      "id": 386575293,
+      "nodes": [
+        3899147271,
+        4465709191,
+        4465709193,
+        4465709196,
+        4465709189,
+        3899147272,
+        3899147273,
+        3899147274,
+        3899147275,
+        4465709190,
+        4465709195,
+        4465709194,
+        4465709192,
+        3899147276,
+        3899147271
+      ],
+      "tags": {
+        "addr:housename": "Pearse Station",
+        "addr:street": "Sandwith Street Upper",
+        "frequency": "50",
+        "name": "Pearse Station DART Substation",
+        "operator": "Irish Rail",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "1500"
+      }
+    },
+    {
+      "type": "way",
+      "id": 403287317,
+      "nodes": [
+        4056480918,
+        4056480919,
+        4056480920,
+        4056480921,
+        4056480922,
+        4056480923,
+        4056480918
+      ],
+      "tags": {
+        "building": "industrial",
+        "frequency": "50",
+        "name": "Shellybanks 220kV GIS Substation",
+        "operator": "EirGrid",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "220000",
+        "voltage:primary": "low",
+        "voltage:secondary": "220000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 409097336,
+      "nodes": [
+        4109904216,
+        4109904217,
+        4465712299,
+        4465712303,
+        4465712305,
+        4465712302,
+        4109904218,
+        4109904219,
+        4109904220,
+        4109904216
+      ],
+      "tags": {
+        "addr:street": "Holyrood Park",
+        "frequency": "50",
+        "name": "Sandymount DART Substation",
+        "operator": "Irish Rail",
+        "phases": "3",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "1500"
+      }
+    },
+    {
+      "type": "way",
+      "id": 421636210,
+      "nodes": [
+        4213849747,
+        4213849748,
+        4213849749,
+        4213849755,
+        4213849756,
+        4213849750,
+        4213849751,
+        4213849752,
+        4213849747
+      ],
+      "tags": {
+        "barrier": "fence",
+        "frequency": "50",
+        "name": "North Wall 110kV Substation",
+        "operator": "EirGrid",
+        "phases": "3",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "110000",
+        "voltage:primary": "low",
+        "voltage:secondary": "110000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 431668268,
+      "nodes": [
+        2803120162,
+        5167945471,
+        2803120159,
+        2803120160,
+        5167945472,
+        5167945474,
+        5167945477,
+        1281368105,
+        5473339704,
+        5473339703,
+        4308943551,
+        2803120162
+      ],
+      "tags": {
+        "addr:street": "Donnybrook Road",
+        "frequency": "50",
+        "name": "Donnybrook 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 436955962,
+      "nodes": [
+        4347971517,
+        4508913562,
+        4347971518,
+        4508913565,
+        4347971519,
+        4347971520,
+        4508913567,
+        4508913569,
+        4347971521,
+        4508913560,
+        4347971522,
+        4508913558,
+        4508913557,
+        4508913556,
+        4347971517
+      ],
+      "tags": {
+        "addr:street": "South Lotts Road",
+        "frequency": "50",
+        "name": "Pembroke 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 437402679,
+      "nodes": [
+        4352151762,
+        4352151763,
+        4352151764,
+        4352151765,
+        4352151762
+      ],
+      "tags": {
+        "addr:street": "Pigeon House Road",
+        "building": "industrial",
+        "frequency": "50",
+        "name": "Ringsend 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 437449555,
+      "nodes": [
+        4352655653,
+        4352655657,
+        4352655654,
+        4352655655,
+        4352655659,
+        4352655656,
+        4352655645,
+        4352655646,
+        4352655652,
+        4352655653
+      ],
+      "tags": {
+        "addr:street": "Marrowbone Lane",
+        "frequency": "50",
+        "name": "Marrowbone Lane 38kV Radio Site",
+        "operator": "ESB Networks",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "low"
+      }
+    },
+    {
+      "type": "way",
+      "id": 438076106,
+      "nodes": [
+        4358175557,
+        2784711764,
+        4358175558,
+        4358175559,
+        4358175560,
+        4358175557
+      ],
+      "tags": {
+        "addr:street": "Park Drive",
+        "frequency": "50",
+        "name": "Milltown 110kV Substation",
+        "operator": "EirGrid",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "38000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 438119450,
+      "nodes": [
+        4358622754,
+        4358622749,
+        4358622750,
+        4358622785,
+        4358622786,
+        4358623291,
+        4358622751,
+        4358623289,
+        4358622752,
+        4358622753,
+        4358623293,
+        4358622748,
+        4358622755,
+        4358622754
+      ],
+      "tags": {
+        "addr:street": "Grange Abbey Road",
+        "barrier": "wall",
+        "frequency": "50",
+        "name": "Grange 110kV Substation",
+        "operator": "EirGrid",
+        "phases": "3",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "38000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 440173101,
+      "nodes": [
+        4378925712,
+        4378925719,
+        4378925718,
+        4378925717,
+        4378925713,
+        4378925724,
+        4378925720,
+        4378925721,
+        4378925722,
+        4378925723,
+        4378925714,
+        4378925715,
+        4378925716,
+        4378925712
+      ],
+      "tags": {
+        "addr:street": "Francis Street",
+        "frequency": "50",
+        "name": "Francis Street 110kV Substation",
+        "operator": "EirGrid",
+        "phases": "3",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "38000",
+        "voltage:tertiary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 440173457,
+      "nodes": [
+        4378928213,
+        4378928214,
+        4378928225,
+        4378928215,
+        4928107929,
+        4928107924,
+        4378928216,
+        4378928220,
+        4378928224,
+        4378928217,
+        4378928223,
+        4378928222,
+        4378928221,
+        4378928218,
+        4378928219,
+        4378928213
+      ],
+      "tags": {
+        "addr:street": "Sean Mac Dermott Street Lower",
+        "frequency": "50",
+        "name": "McDermott 110kV Substation",
+        "operator": "EirGrid",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "38000",
+        "voltage:tertiary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 443081627,
+      "nodes": [
+        6257803571,
+        6257803572,
+        6257803575,
+        4407177887,
+        4407178789,
+        6257803571
+      ],
+      "tags": {
+        "addr:street": "Sheriff Street Upper",
+        "building": "industrial",
+        "frequency": "50",
+        "name": "North Quays 110kV Substation",
+        "operator": "EirGrid",
+        "phases": "3",
+        "power": "substation",
+        "rating": "40 MVA",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "38000",
+        "voltage:tertiary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 443093953,
+      "nodes": [
+        4407302086,
+        4407302087,
+        4407302088,
+        4407303189,
+        4407303190,
+        4407303191,
+        4407302086
+      ],
+      "tags": {
+        "addr:street": "Killeen Road",
+        "barrier": "fence",
+        "frequency": "50",
+        "name": "Semperit 38kV Substation",
+        "operator": "ESB Networks",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 443094721,
+      "nodes": [
+        4427858676,
+        4427858677,
+        4427858679,
+        4358105353,
+        4358105354,
+        4427858680,
+        4427858681,
+        4427858682,
+        4427858675,
+        4427858676
+      ],
+      "tags": {
+        "addr:street": "Pigeon House Road",
+        "frequency": "50",
+        "name": "Poolbeg 220kV Substation",
+        "operator": "EirGrid",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "220000",
+        "voltage:primary": "low",
+        "voltage:secondary": "220000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 444070898,
+      "nodes": [
+        4415747031,
+        4415747032,
+        4415747033,
+        4415747034,
+        4415747035,
+        4415747036,
+        4415747031
+      ],
+      "tags": {
+        "building": "industrial",
+        "frequency": "50",
+        "name": "North Wall 220kV GIS Substation",
+        "operator": "EirGrid",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "220000",
+        "voltage:primary": "low",
+        "voltage:secondary": "220000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 444107084,
+      "nodes": [
+        4077304406,
+        4077304413,
+        2395473799,
+        2395473800,
+        2395473801,
+        4077304409,
+        4416057917,
+        4416057918,
+        4416057919,
+        4416057931,
+        4416057920,
+        4416057921,
+        4077304407,
+        4077304406
+      ],
+      "tags": {
+        "addr:street": "Stephen's Place",
+        "frequency": "50",
+        "name": "Merrion Square East 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "low"
+      }
+    },
+    {
+      "type": "way",
+      "id": 444830508,
+      "nodes": [
+        4422901666,
+        4422901667,
+        4422901668,
+        4422901669,
+        4422901666
+      ],
+      "tags": {
+        "addr:street": "Mayor Street Upper",
+        "frequency": "50",
+        "location": "underground",
+        "name": "Spencer Dock Luas Substation",
+        "operator": "Luas - Transdev Dublin Light Rail Limited",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "750"
+      }
+    },
+    {
+      "type": "way",
+      "id": 444963332,
+      "nodes": [
+        4424206730,
+        4424206731,
+        4424206743,
+        4424206732,
+        4424206733,
+        4424206730
+      ],
+      "tags": {
+        "addr:housename": "Fairview DART Depot",
+        "addr:street": "Clontarf Road",
+        "frequency": "50",
+        "name": "Fairview DART Substation",
+        "operator": "Irish Rail",
+        "phases": "3",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "1500"
+      }
+    },
+    {
+      "type": "way",
+      "id": 445134202,
+      "nodes": [
+        4426074653,
+        4426074654,
+        4426074655,
+        4426074656,
+        4426074657,
+        4426074658,
+        4426074653
+      ],
+      "tags": {
+        "building": "yes",
+        "frequency": "50",
+        "name": "Suir Road Luas Substation",
+        "operator": "Luas - Transdev Dublin Light Rail Limited",
+        "phases": "3",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "750"
+      }
+    },
+    {
+      "type": "way",
+      "id": 445318192,
+      "nodes": [
+        4427685277,
+        512643426,
+        4427685275,
+        4427685276,
+        4427685257,
+        4427685256,
+        4427685255,
+        4427685258,
+        4427685277
+      ],
+      "tags": {
+        "addr:street": "St John's Road West",
+        "frequency": "50",
+        "name": "Heuston Square 110kV Substation",
+        "operator": "EirGrid",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 445320676,
+      "nodes": [
+        4348472788,
+        4348472787,
+        4348472786,
+        4348472785,
+        4348472784,
+        4348472783,
+        4348472782,
+        4348472781,
+        4348472780,
+        4348472774,
+        4348472779,
+        4348472776,
+        4348472788
+      ],
+      "tags": {
+        "frequency": "50",
+        "name": "Inchicore 10kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "10000",
+        "voltage:primary": "10000",
+        "voltage:secondary": "400"
+      }
+    },
+    {
+      "type": "way",
+      "id": 445329080,
+      "nodes": [
+        4427771427,
+        4427771426,
+        5147617458,
+        4427771425,
+        4427771430,
+        4427771431,
+        4427771432,
+        4427771433,
+        4427771435,
+        4427771428,
+        4427771427
+      ],
+      "tags": {
+        "addr:housename": "Guinness",
+        "addr:street": "Watling Street",
+        "frequency": "50",
+        "name": "Watling Street 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 445329577,
+      "nodes": [
+        4427778268,
+        4427778282,
+        4427778269,
+        4427778270,
+        4427778283,
+        4427778271,
+        4427778273,
+        4427778272,
+        4427778288,
+        4427778389,
+        4427778391,
+        4427778268
+      ],
+      "tags": {
+        "addr:street": "Royal Canal Bank",
+        "frequency": "50",
+        "name": "Phibsborough 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "low"
+      }
+    },
+    {
+      "type": "way",
+      "id": 445330309,
+      "nodes": [
+        4427769088,
+        4427769087,
+        6033413264,
+        6033413267,
+        6033413263,
+        4427769086,
+        4427769085,
+        4427784701,
+        4427769084,
+        6050242239,
+        4427769083,
+        6050242234,
+        4427769088
+      ],
+      "tags": {
+        "addr:street": "Schoolhouse Lane",
+        "frequency": "50",
+        "name": "Santry 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 445348380,
+      "nodes": [
+        3266796205,
+        4427939420,
+        3488809253,
+        3359518306,
+        598232097,
+        3266796181,
+        3266796205
+      ],
+      "tags": {
+        "addr:street": "Sybil Hill Road",
+        "frequency": "50",
+        "name": "Clontarf 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "low"
+      }
+    },
+    {
+      "type": "way",
+      "id": 445360255,
+      "nodes": [
+        4428035520,
+        4428035521,
+        4428035522,
+        4428035523,
+        4428035524,
+        4428035533,
+        4428035534,
+        4428035525,
+        4428035535,
+        4428035520
+      ],
+      "tags": {
+        "addr:street": "St John's Road West",
+        "frequency": "50",
+        "name": "Kingsbridge 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 449453202,
+      "nodes": [
+        4464046557,
+        4350967489,
+        4350967494,
+        4350967486,
+        4350967488,
+        4350967487,
+        4464046558,
+        4464046557
+      ],
+      "tags": {
+        "addr:street": "Naas Road",
+        "frequency": "50",
+        "name": "Kylemore Luas Substation",
+        "operator": "Luas - Transdev Dublin Light Rail Limited",
+        "phases": "3",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "750"
+      }
+    },
+    {
+      "type": "way",
+      "id": 449624351,
+      "nodes": [
+        4465700877,
+        4465700878,
+        3467999257,
+        4465700879,
+        4465700877
+      ],
+      "tags": {
+        "addr:street": "Station Road",
+        "frequency": "50",
+        "name": "Raheny DART Substation",
+        "operator": "Irish Rail",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "1500"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450259239,
+      "nodes": [
+        4471815488,
+        4471815789,
+        4471815790,
+        4471815794,
+        4471815791,
+        4471815792,
+        4471815793,
+        4471815488
+      ],
+      "tags": {
+        "addr:street": "The Crescent",
+        "frequency": "50",
+        "name": "Fairview 38kV Station",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "low"
+      }
+    },
+    {
+      "type": "way",
+      "id": 456199341,
+      "nodes": [
+        4524775006,
+        4524775007,
+        4524775008,
+        4524775009,
+        4524775010,
+        4524775011,
+        4524775012,
+        4524775013,
+        4524775014,
+        4524775015,
+        4524775016,
+        4524775017,
+        4524775018,
+        4524775019,
+        4524775006
+      ],
+      "tags": {
+        "addr:street": "Kylemore Way",
+        "frequency": "50",
+        "name": "Inchicore 220kV Substation",
+        "operator": "EirGrid",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "220000",
+        "voltage:primary": "220000",
+        "voltage:quaternary": "10000",
+        "voltage:secondary": "110000",
+        "voltage:tertiary": "38000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 478322320,
+      "nodes": [
+        4715529985,
+        4715529986,
+        4715529987,
+        4715529988,
+        4715529985
+      ],
+      "tags": {
+        "addr:street": "Fitzwilliam Lane",
+        "building": "industrial",
+        "frequency": "50",
+        "name": "Fitzwilliam Lane",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "ref": "068014",
+        "substation": "minor_distribution",
+        "voltage": "10000",
+        "voltage:primary": "10000",
+        "voltage:secondary": "400"
+      }
+    },
+    {
+      "type": "way",
+      "id": 478916752,
+      "nodes": [
+        4378877081,
+        5974026998,
+        4378877077,
+        4378877078,
+        4378877079,
+        374510334,
+        374510347,
+        5974027003,
+        5974027004,
+        4378877081
+      ],
+      "tags": {
+        "addr:street": "Greencastle Road",
+        "frequency": "50",
+        "name": "Coolock 38kV Radio Site",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "low"
+      }
+    },
+    {
+      "type": "way",
+      "id": 489671620,
+      "nodes": [
+        4818930666,
+        4818930678,
+        4818930679,
+        4818930680,
+        4818930666
+      ],
+      "tags": {
+        "addr:street": "Wolfe Tone Street",
+        "building": "yes",
+        "frequency": "50",
+        "name": "Wolfe Tone 110kV Substation",
+        "operator": "EirGrid",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "38000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 492437752,
+      "nodes": [
+        4844594238,
+        4844594297,
+        4844594300,
+        4844594239,
+        4844594299,
+        4844594240,
+        4844594264,
+        4844594238
+      ],
+      "tags": {
+        "addr:street": "Granby Place",
+        "frequency": "50",
+        "name": "Granby Row 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 500284316,
+      "nodes": [
+        4913796529,
+        4913796530,
+        4913796531,
+        4913796532,
+        4913796533,
+        4913796534,
+        4913796529
+      ],
+      "tags": {
+        "building": "industrial",
+        "frequency": "50",
+        "name": "Broadstone Luas Substation",
+        "operator": "Luas - Transdev Dublin Light Rail Limited",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "750"
+      }
+    },
+    {
+      "type": "way",
+      "id": 503253219,
+      "nodes": [
+        4935973676,
+        4935973677,
+        4935973707,
+        4935973678,
+        4935973701,
+        4935973679,
+        4935973692,
+        4935973693,
+        4935973676
+      ],
+      "tags": {
+        "addr:street": "St Anne's Road",
+        "frequency": "50",
+        "name": "Drumcondra 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "low"
+      }
+    },
+    {
+      "type": "way",
+      "id": 520247049,
+      "nodes": [
+        5071075530,
+        5071075547,
+        5071075531,
+        5071075532,
+        5071075537,
+        5071075538,
+        5071075533,
+        5071075534,
+        5071075535,
+        5071075536,
+        5071075530
+      ],
+      "tags": {
+        "addr:street": "Bedford Row",
+        "frequency": "50",
+        "name": "Bedford Row 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 522731953,
+      "nodes": [
+        5090637382,
+        5090637383,
+        5090637384,
+        5090637385,
+        5090637386,
+        5090637387,
+        5090637382
+      ],
+      "tags": {
+        "building": "industrial",
+        "building:levels": "1",
+        "frequency": "50",
+        "name": "Broombridge Luas Substation",
+        "operator": "Luas - Transdev Dublin Light Rail Limited",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "750"
+      }
+    },
+    {
+      "type": "way",
+      "id": 554367622,
+      "nodes": [
+        5350167308,
+        5350167307,
+        5350167311,
+        4222394803,
+        4222394800,
+        5350167309,
+        5350167310,
+        5350167308
+      ],
+      "tags": {
+        "barrier": "wall",
+        "frequency": "50",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "10000",
+        "voltage:primary": "10000",
+        "voltage:secondary": "400"
+      }
+    },
+    {
+      "type": "way",
+      "id": 580268034,
+      "nodes": [
+        5555344988,
+        5555344989,
+        5555344990,
+        5555344991,
+        5555344992,
+        5555344993,
+        5555344988
+      ],
+      "tags": {
+        "barrier": "wall",
+        "frequency": "50",
+        "name": "Merville 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586374473,
+      "nodes": [
+        4647452440,
+        5602593596,
+        5602593593,
+        4647452441,
+        4647452439,
+        4647452448,
+        4647452440
+      ],
+      "tags": {
+        "frequency": "50",
+        "name": "East Wall Road 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "rating": "20 MVA",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586375408,
+      "nodes": [
+        5602600645,
+        5602600646,
+        5602600647,
+        5602600648,
+        5602600645
+      ],
+      "tags": {
+        "addr:street": "East Wall Road",
+        "building": "industrial",
+        "frequency": "50",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "10000",
+        "voltage:primary": "10000",
+        "voltage:secondary": "400"
+      }
+    },
+    {
+      "type": "way",
+      "id": 634543442,
+      "nodes": [
+        5987928636,
+        5987928629,
+        5987928627,
+        5987928624,
+        5987928632,
+        5987928625,
+        5987928626,
+        4356756440,
+        4356756439,
+        4356756438,
+        5987928636
+      ],
+      "tags": {
+        "frequency": "50",
+        "name": "Whitehall 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 636135260,
+      "nodes": [
+        5999189704,
+        5999189705,
+        5999189706,
+        5999189707,
+        5999189708,
+        5999189709,
+        5999189710,
+        5999189711,
+        5999189712,
+        5999189713,
+        5999189714,
+        5999189715,
+        5999189716,
+        5999189720,
+        5999189704
+      ],
+      "tags": {
+        "barrier": "wall",
+        "frequency": "50",
+        "name": "Glasnevin 38kV Substation",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "38000",
+        "voltage:primary": "38000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 697464725,
+      "nodes": [
+        6550204234,
+        6550204233,
+        6550204232,
+        6550204231,
+        6551929044,
+        6551929043,
+        6550204234
+      ],
+      "tags": {
+        "barrier": "fence",
+        "frequency": "50",
+        "name": "Darndale 110kV Substation",
+        "note": "Proposed connection to Belcamp 220kV Substation.",
+        "operator": "EirGrid",
+        "phases": "3",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "110000",
+        "voltage:primary": "110000",
+        "voltage:secondary": "10000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 736675397,
+      "nodes": [
+        6897179961,
+        6897179962,
+        6897179963,
+        1239252072,
+        6897179961
+      ],
+      "tags": {
+        "frequency": "50",
+        "operator": "ESB Networks",
+        "phases": "3",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "10000",
+        "voltage:primary": "voltage",
+        "voltage:secondary": "400"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4407302086,
+      "lat": 53.3329017,
+      "lon": -6.3568555
+    },
+    {
+      "type": "node",
+      "id": 4407302087,
+      "lat": 53.3325768,
+      "lon": -6.3568321
+    },
+    {
+      "type": "node",
+      "id": 4407302088,
+      "lat": 53.3325963,
+      "lon": -6.3559425
+    },
+    {
+      "type": "node",
+      "id": 4407303189,
+      "lat": 53.3328096,
+      "lon": -6.3559075
+    },
+    {
+      "type": "node",
+      "id": 4407303190,
+      "lat": 53.332811,
+      "lon": -6.3560593
+    },
+    {
+      "type": "node",
+      "id": 4407303191,
+      "lat": 53.3329309,
+      "lon": -6.3560639
+    },
+    {
+      "type": "node",
+      "id": 4350967486,
+      "lat": 53.3271239,
+      "lon": -6.3401825
+    },
+    {
+      "type": "node",
+      "id": 4350967487,
+      "lat": 53.3270726,
+      "lon": -6.3398091
+    },
+    {
+      "type": "node",
+      "id": 4350967488,
+      "lat": 53.3272037,
+      "lon": -6.3398914
+    },
+    {
+      "type": "node",
+      "id": 4350967489,
+      "lat": 53.3271091,
+      "lon": -6.3402409
+    },
+    {
+      "type": "node",
+      "id": 4350967494,
+      "lat": 53.3271155,
+      "lon": -6.3402157
+    },
+    {
+      "type": "node",
+      "id": 4464046557,
+      "lat": 53.3271022,
+      "lon": -6.3402708
+    },
+    {
+      "type": "node",
+      "id": 4464046558,
+      "lat": 53.3269964,
+      "lon": -6.340193
+    },
+    {
+      "type": "node",
+      "id": 2894522621,
+      "lat": 53.333747,
+      "lon": -6.3394241
+    },
+    {
+      "type": "node",
+      "id": 2894522636,
+      "lat": 53.3338872,
+      "lon": -6.3387449
+    },
+    {
+      "type": "node",
+      "id": 2894522674,
+      "lat": 53.3338136,
+      "lon": -6.3401844
+    },
+    {
+      "type": "node",
+      "id": 2894522780,
+      "lat": 53.3336519,
+      "lon": -6.339369
+    },
+    {
+      "type": "node",
+      "id": 2894522823,
+      "lat": 53.333792,
+      "lon": -6.3386898
+    },
+    {
+      "type": "node",
+      "id": 2894522860,
+      "lat": 53.3333127,
+      "lon": -6.3400983
+    },
+    {
+      "type": "node",
+      "id": 2894523011,
+      "lat": 53.3333503,
+      "lon": -6.3399172
+    },
+    {
+      "type": "node",
+      "id": 2894523024,
+      "lat": 53.3337756,
+      "lon": -6.3403675
+    },
+    {
+      "type": "node",
+      "id": 4348472759,
+      "lat": 53.333872,
+      "lon": -6.3387361
+    },
+    {
+      "type": "node",
+      "id": 4348472774,
+      "lat": 53.3344447,
+      "lon": -6.3391632
+    },
+    {
+      "type": "node",
+      "id": 4348472776,
+      "lat": 53.3345577,
+      "lon": -6.3392286
+    },
+    {
+      "type": "node",
+      "id": 4348472779,
+      "lat": 53.3344901,
+      "lon": -6.3391887
+    },
+    {
+      "type": "node",
+      "id": 4348472780,
+      "lat": 53.3343155,
+      "lon": -6.3390908
+    },
+    {
+      "type": "node",
+      "id": 4348472781,
+      "lat": 53.3343932,
+      "lon": -6.3386871
+    },
+    {
+      "type": "node",
+      "id": 4348472782,
+      "lat": 53.3344348,
+      "lon": -6.3385892
+    },
+    {
+      "type": "node",
+      "id": 4348472783,
+      "lat": 53.3344604,
+      "lon": -6.3385704
+    },
+    {
+      "type": "node",
+      "id": 4348472784,
+      "lat": 53.3345229,
+      "lon": -6.3384149
+    },
+    {
+      "type": "node",
+      "id": 4348472785,
+      "lat": 53.3347615,
+      "lon": -6.3385584
+    },
+    {
+      "type": "node",
+      "id": 4348472786,
+      "lat": 53.3347143,
+      "lon": -6.3387917
+    },
+    {
+      "type": "node",
+      "id": 4348472787,
+      "lat": 53.3346983,
+      "lon": -6.3388158
+    },
+    {
+      "type": "node",
+      "id": 4348472788,
+      "lat": 53.3345982,
+      "lon": -6.3392504
+    },
+    {
+      "type": "node",
+      "id": 4348473016,
+      "lat": 53.3333637,
+      "lon": -6.3399244
+    },
+    {
+      "type": "node",
+      "id": 4427710703,
+      "lat": 53.3337624,
+      "lon": -6.3401547
+    },
+    {
+      "type": "node",
+      "id": 4427710705,
+      "lat": 53.3336351,
+      "lon": -6.3400811
+    },
+    {
+      "type": "node",
+      "id": 4427710707,
+      "lat": 53.3334893,
+      "lon": -6.3399969
+    },
+    {
+      "type": "node",
+      "id": 4427717582,
+      "lat": 53.333423,
+      "lon": -6.3401625
+    },
+    {
+      "type": "node",
+      "id": 4427717584,
+      "lat": 53.3337038,
+      "lon": -6.3403265
+    },
+    {
+      "type": "node",
+      "id": 4427717585,
+      "lat": 53.333623,
+      "lon": -6.3402793
+    },
+    {
+      "type": "node",
+      "id": 4524775006,
+      "lat": 53.3344734,
+      "lon": -6.3376581
+    },
+    {
+      "type": "node",
+      "id": 4524775007,
+      "lat": 53.3340345,
+      "lon": -6.339769
+    },
+    {
+      "type": "node",
+      "id": 4524775008,
+      "lat": 53.3341963,
+      "lon": -6.3399246
+    },
+    {
+      "type": "node",
+      "id": 4524775009,
+      "lat": 53.3340249,
+      "lon": -6.3407721
+    },
+    {
+      "type": "node",
+      "id": 4524775010,
+      "lat": 53.3334979,
+      "lon": -6.3404744
+    },
+    {
+      "type": "node",
+      "id": 4524775011,
+      "lat": 53.3334387,
+      "lon": -6.3408472
+    },
+    {
+      "type": "node",
+      "id": 4524775012,
+      "lat": 53.3330815,
+      "lon": -6.3406809
+    },
+    {
+      "type": "node",
+      "id": 4524775013,
+      "lat": 53.3331376,
+      "lon": -6.3402706
+    },
+    {
+      "type": "node",
+      "id": 4524775014,
+      "lat": 53.3331199,
+      "lon": -6.3402303
+    },
+    {
+      "type": "node",
+      "id": 4524775015,
+      "lat": 53.3331792,
+      "lon": -6.3396805
+    },
+    {
+      "type": "node",
+      "id": 4524775016,
+      "lat": 53.3332641,
+      "lon": -6.3397314
+    },
+    {
+      "type": "node",
+      "id": 4524775017,
+      "lat": 53.3337542,
+      "lon": -6.3373952
+    },
+    {
+      "type": "node",
+      "id": 4524775018,
+      "lat": 53.3342203,
+      "lon": -6.3376447
+    },
+    {
+      "type": "node",
+      "id": 4524775019,
+      "lat": 53.3342523,
+      "lon": -6.3375186
+    },
+    {
+      "type": "node",
+      "id": 2671626530,
+      "lat": 53.3256033,
+      "lon": -6.3158533
+    },
+    {
+      "type": "node",
+      "id": 2671626532,
+      "lat": 53.3257365,
+      "lon": -6.316082
+    },
+    {
+      "type": "node",
+      "id": 2793687979,
+      "lat": 53.3255253,
+      "lon": -6.3162439
+    },
+    {
+      "type": "node",
+      "id": 2793687980,
+      "lat": 53.3253714,
+      "lon": -6.3160168
+    },
+    {
+      "type": "node",
+      "id": 2793687981,
+      "lat": 53.3255361,
+      "lon": -6.3157191
+    },
+    {
+      "type": "node",
+      "id": 4378888028,
+      "lat": 53.3253646,
+      "lon": -6.3160426
+    },
+    {
+      "type": "node",
+      "id": 4378888029,
+      "lat": 53.325567,
+      "lon": -6.3163174
+    },
+    {
+      "type": "node",
+      "id": 4378888041,
+      "lat": 53.3254614,
+      "lon": -6.3161435
+    },
+    {
+      "type": "node",
+      "id": 1239252072,
+      "lat": 53.3331014,
+      "lon": -6.3112112
+    },
+    {
+      "type": "node",
+      "id": 6897179961,
+      "lat": 53.3331905,
+      "lon": -6.3112507
+    },
+    {
+      "type": "node",
+      "id": 4426074653,
+      "lat": 53.3363571,
+      "lon": -6.3083786
+    },
+    {
+      "type": "node",
+      "id": 4426074654,
+      "lat": 53.3361537,
+      "lon": -6.3083169
+    },
+    {
+      "type": "node",
+      "id": 4426074655,
+      "lat": 53.3361617,
+      "lon": -6.3082298
+    },
+    {
+      "type": "node",
+      "id": 4426074656,
+      "lat": 53.3363411,
+      "lon": -6.3082834
+    },
+    {
+      "type": "node",
+      "id": 4426074657,
+      "lat": 53.3363371,
+      "lon": -6.3083236
+    },
+    {
+      "type": "node",
+      "id": 4426074658,
+      "lat": 53.3363635,
+      "lon": -6.3083357
+    },
+    {
+      "type": "node",
+      "id": 6897179962,
+      "lat": 53.3332081,
+      "lon": -6.3110924
+    },
+    {
+      "type": "node",
+      "id": 6897179963,
+      "lat": 53.3331067,
+      "lon": -6.3110608
+    },
+    {
+      "type": "node",
+      "id": 512643426,
+      "lat": 53.3451039,
+      "lon": -6.2995779
+    },
+    {
+      "type": "node",
+      "id": 4427685255,
+      "lat": 53.3452384,
+      "lon": -6.2999453
+    },
+    {
+      "type": "node",
+      "id": 4427685256,
+      "lat": 53.3452272,
+      "lon": -6.3000017
+    },
+    {
+      "type": "node",
+      "id": 4427685257,
+      "lat": 53.3452448,
+      "lon": -6.3000821
+    },
+    {
+      "type": "node",
+      "id": 4427685258,
+      "lat": 53.345248,
+      "lon": -6.2998836
+    },
+    {
+      "type": "node",
+      "id": 4427685275,
+      "lat": 53.3450143,
+      "lon": -6.3003718
+    },
+    {
+      "type": "node",
+      "id": 4427685276,
+      "lat": 53.3451952,
+      "lon": -6.3004415
+    },
+    {
+      "type": "node",
+      "id": 4427685277,
+      "lat": 53.3452903,
+      "lon": -6.2996366
+    },
+    {
+      "type": "node",
+      "id": 4428035520,
+      "lat": 53.3458224,
+      "lon": -6.2940564
+    },
+    {
+      "type": "node",
+      "id": 4428035521,
+      "lat": 53.3456135,
+      "lon": -6.2940403
+    },
+    {
+      "type": "node",
+      "id": 4428035522,
+      "lat": 53.3456055,
+      "lon": -6.2939236
+    },
+    {
+      "type": "node",
+      "id": 4428035523,
+      "lat": 53.3456087,
+      "lon": -6.2936916
+    },
+    {
+      "type": "node",
+      "id": 4428035524,
+      "lat": 53.3458048,
+      "lon": -6.293705
+    },
+    {
+      "type": "node",
+      "id": 4428035525,
+      "lat": 53.3458288,
+      "lon": -6.2938807
+    },
+    {
+      "type": "node",
+      "id": 4428035533,
+      "lat": 53.3458022,
+      "lon": -6.2937273
+    },
+    {
+      "type": "node",
+      "id": 4428035534,
+      "lat": 53.3457999,
+      "lon": -6.2938792
+    },
+    {
+      "type": "node",
+      "id": 4428035535,
+      "lat": 53.3458256,
+      "lon": -6.2939692
+    },
+    {
+      "type": "node",
+      "id": 443303905,
+      "lat": 53.3725253,
+      "lon": -6.3000505
+    },
+    {
+      "type": "node",
+      "id": 443303906,
+      "lat": 53.3728813,
+      "lon": -6.3006945
+    },
+    {
+      "type": "node",
+      "id": 528772149,
+      "lat": 53.3725116,
+      "lon": -6.3001907
+    },
+    {
+      "type": "node",
+      "id": 3780731661,
+      "lat": 53.3724688,
+      "lon": -6.300629
+    },
+    {
+      "type": "node",
+      "id": 3780731662,
+      "lat": 53.3727521,
+      "lon": -6.3000796
+    },
+    {
+      "type": "node",
+      "id": 3780731663,
+      "lat": 53.372562,
+      "lon": -6.3000508
+    },
+    {
+      "type": "node",
+      "id": 5885102021,
+      "lat": 53.3728206,
+      "lon": -6.3004055
+    },
+    {
+      "type": "node",
+      "id": 5885102023,
+      "lat": 53.3727072,
+      "lon": -6.3006669
+    },
+    {
+      "type": "node",
+      "id": 5090637385,
+      "lat": 53.3705569,
+      "lon": -6.2914837
+    },
+    {
+      "type": "node",
+      "id": 5555344988,
+      "lat": 53.3818399,
+      "lon": -6.2918753
+    },
+    {
+      "type": "node",
+      "id": 5555344989,
+      "lat": 53.3817935,
+      "lon": -6.2919557
+    },
+    {
+      "type": "node",
+      "id": 5555344990,
+      "lat": 53.3816959,
+      "lon": -6.2919557
+    },
+    {
+      "type": "node",
+      "id": 5555344991,
+      "lat": 53.3816167,
+      "lon": -6.2919061
+    },
+    {
+      "type": "node",
+      "id": 5555344992,
+      "lat": 53.3816895,
+      "lon": -6.2915883
+    },
+    {
+      "type": "node",
+      "id": 5555344993,
+      "lat": 53.3818735,
+      "lon": -6.2916955
+    },
+    {
+      "type": "node",
+      "id": 3069695527,
+      "lat": 53.3976196,
+      "lon": -6.2964583
+    },
+    {
+      "type": "node",
+      "id": 3069695528,
+      "lat": 53.3977587,
+      "lon": -6.2972871
+    },
+    {
+      "type": "node",
+      "id": 3069695529,
+      "lat": 53.3973733,
+      "lon": -6.2974212
+    },
+    {
+      "type": "node",
+      "id": 3069695530,
+      "lat": 53.3972437,
+      "lon": -6.2966273
+    },
+    {
+      "type": "node",
+      "id": 4413722590,
+      "lat": 53.3974383,
+      "lon": -6.2973986
+    },
+    {
+      "type": "node",
+      "id": 2770789194,
+      "lat": 53.3158443,
+      "lon": -6.2779073
+    },
+    {
+      "type": "node",
+      "id": 2770837943,
+      "lat": 53.3161173,
+      "lon": -6.2780309
+    },
+    {
+      "type": "node",
+      "id": 2770866840,
+      "lat": 53.3160706,
+      "lon": -6.2783234
+    },
+    {
+      "type": "node",
+      "id": 2958808398,
+      "lat": 53.3157926,
+      "lon": -6.2782075
+    },
+    {
+      "type": "node",
+      "id": 2983102638,
+      "lat": 53.3160361,
+      "lon": -6.277995
+    },
+    {
+      "type": "node",
+      "id": 2983102648,
+      "lat": 53.3160676,
+      "lon": -6.2783375
+    },
+    {
+      "type": "node",
+      "id": 4385366487,
+      "lat": 53.3158383,
+      "lon": -6.277943
+    },
+    {
+      "type": "node",
+      "id": 4385366591,
+      "lat": 53.3158308,
+      "lon": -6.278226
+    },
+    {
+      "type": "node",
+      "id": 4385366593,
+      "lat": 53.3158043,
+      "lon": -6.2781399
+    },
+    {
+      "type": "node",
+      "id": 4949214823,
+      "lat": 53.3158162,
+      "lon": -6.2780748
+    },
+    {
+      "type": "node",
+      "id": 6396979012,
+      "lat": 53.3158255,
+      "lon": -6.2780191
+    },
+    {
+      "type": "node",
+      "id": 770560817,
+      "lat": 53.3288874,
+      "lon": -6.2752892
+    },
+    {
+      "type": "node",
+      "id": 770560842,
+      "lat": 53.3290421,
+      "lon": -6.2756735
+    },
+    {
+      "type": "node",
+      "id": 3829939350,
+      "lat": 53.3291375,
+      "lon": -6.2755659
+    },
+    {
+      "type": "node",
+      "id": 4229444347,
+      "lat": 53.329086,
+      "lon": -6.2754379
+    },
+    {
+      "type": "node",
+      "id": 4229444350,
+      "lat": 53.3289828,
+      "lon": -6.2751815
+    },
+    {
+      "type": "node",
+      "id": 1670320904,
+      "lat": 53.336389,
+      "lon": -6.2667437
+    },
+    {
+      "type": "node",
+      "id": 1670320918,
+      "lat": 53.3364108,
+      "lon": -6.2664817
+    },
+    {
+      "type": "node",
+      "id": 2784711764,
+      "lat": 53.3151835,
+      "lon": -6.2530036
+    },
+    {
+      "type": "node",
+      "id": 4358175558,
+      "lat": 53.314882,
+      "lon": -6.252925
+    },
+    {
+      "type": "node",
+      "id": 4358175557,
+      "lat": 53.3151693,
+      "lon": -6.2515096
+    },
+    {
+      "type": "node",
+      "id": 4358175559,
+      "lat": 53.3149246,
+      "lon": -6.2521319
+    },
+    {
+      "type": "node",
+      "id": 4358175560,
+      "lat": 53.3149398,
+      "lon": -6.2515096
+    },
+    {
+      "type": "node",
+      "id": 4222394800,
+      "lat": 53.323732,
+      "lon": -6.2625736
+    },
+    {
+      "type": "node",
+      "id": 4222394803,
+      "lat": 53.3237426,
+      "lon": -6.262536
+    },
+    {
+      "type": "node",
+      "id": 5350167307,
+      "lat": 53.323813,
+      "lon": -6.2623036
+    },
+    {
+      "type": "node",
+      "id": 5350167308,
+      "lat": 53.3239028,
+      "lon": -6.2623858
+    },
+    {
+      "type": "node",
+      "id": 5350167309,
+      "lat": 53.323825,
+      "lon": -6.2626464
+    },
+    {
+      "type": "node",
+      "id": 5350167310,
+      "lat": 53.3238431,
+      "lon": -6.2625818
+    },
+    {
+      "type": "node",
+      "id": 5350167311,
+      "lat": 53.3237501,
+      "lon": -6.262509
+    },
+    {
+      "type": "node",
+      "id": 3001747206,
+      "lat": 53.3311254,
+      "lon": -6.2530834
+    },
+    {
+      "type": "node",
+      "id": 3001747207,
+      "lat": 53.331093,
+      "lon": -6.2532447
+    },
+    {
+      "type": "node",
+      "id": 3001747208,
+      "lat": 53.3309625,
+      "lon": -6.2531713
+    },
+    {
+      "type": "node",
+      "id": 3001747209,
+      "lat": 53.3310153,
+      "lon": -6.2529087
+    },
+    {
+      "type": "node",
+      "id": 3001747210,
+      "lat": 53.3310994,
+      "lon": -6.252956
+    },
+    {
+      "type": "node",
+      "id": 3001747211,
+      "lat": 53.3310929,
+      "lon": -6.2529884
+    },
+    {
+      "type": "node",
+      "id": 3001747212,
+      "lat": 53.331128,
+      "lon": -6.2530082
+    },
+    {
+      "type": "node",
+      "id": 3001747213,
+      "lat": 53.3311141,
+      "lon": -6.2530771
+    },
+    {
+      "type": "node",
+      "id": 6140964424,
+      "lat": 53.3311149,
+      "lon": -6.2531357
+    },
+    {
+      "type": "node",
+      "id": 6140964425,
+      "lat": 53.3309843,
+      "lon": -6.2530628
+    },
+    {
+      "type": "node",
+      "id": 6140964426,
+      "lat": 53.3310278,
+      "lon": -6.253208
+    },
+    {
+      "type": "node",
+      "id": 1281368105,
+      "lat": 53.3199832,
+      "lon": -6.2328679
+    },
+    {
+      "type": "node",
+      "id": 2803120162,
+      "lat": 53.3198527,
+      "lon": -6.2327085
+    },
+    {
+      "type": "node",
+      "id": 4308943551,
+      "lat": 53.3199139,
+      "lon": -6.2327901
+    },
+    {
+      "type": "node",
+      "id": 5167945471,
+      "lat": 53.3199349,
+      "lon": -6.2325468
+    },
+    {
+      "type": "node",
+      "id": 5167945472,
+      "lat": 53.3200861,
+      "lon": -6.2326581
+    },
+    {
+      "type": "node",
+      "id": 5167945474,
+      "lat": 53.3200469,
+      "lon": -6.2327396
+    },
+    {
+      "type": "node",
+      "id": 5167945477,
+      "lat": 53.3200146,
+      "lon": -6.2328068
+    },
+    {
+      "type": "node",
+      "id": 5473339703,
+      "lat": 53.3199445,
+      "lon": -6.2328342
+    },
+    {
+      "type": "node",
+      "id": 5473339704,
+      "lat": 53.3199498,
+      "lon": -6.2328232
+    },
+    {
+      "type": "node",
+      "id": 2803120159,
+      "lat": 53.3201233,
+      "lon": -6.2321344
+    },
+    {
+      "type": "node",
+      "id": 2803120160,
+      "lat": 53.3202563,
+      "lon": -6.2323046
+    },
+    {
+      "type": "node",
+      "id": 4109904216,
+      "lat": 53.3293686,
+      "lon": -6.2226332
+    },
+    {
+      "type": "node",
+      "id": 4109904217,
+      "lat": 53.3293253,
+      "lon": -6.2227264
+    },
+    {
+      "type": "node",
+      "id": 4109904218,
+      "lat": 53.3289047,
+      "lon": -6.2221788
+    },
+    {
+      "type": "node",
+      "id": 4109904219,
+      "lat": 53.3289391,
+      "lon": -6.2221046
+    },
+    {
+      "type": "node",
+      "id": 4109904220,
+      "lat": 53.3289701,
+      "lon": -6.2221144
+    },
+    {
+      "type": "node",
+      "id": 4465712299,
+      "lat": 53.3291109,
+      "lon": -6.2224473
+    },
+    {
+      "type": "node",
+      "id": 4465712302,
+      "lat": 53.3289923,
+      "lon": -6.2222928
+    },
+    {
+      "type": "node",
+      "id": 4465712303,
+      "lat": 53.3290688,
+      "lon": -6.2223925
+    },
+    {
+      "type": "node",
+      "id": 4465712305,
+      "lat": 53.3290301,
+      "lon": -6.222342
+    },
+    {
+      "type": "node",
+      "id": 4352655645,
+      "lat": 53.339417,
+      "lon": -6.2858593
+    },
+    {
+      "type": "node",
+      "id": 4352655646,
+      "lat": 53.3393227,
+      "lon": -6.2860551
+    },
+    {
+      "type": "node",
+      "id": 4352655652,
+      "lat": 53.3393098,
+      "lon": -6.2860824
+    },
+    {
+      "type": "node",
+      "id": 4352655653,
+      "lat": 53.3394883,
+      "lon": -6.2863238
+    },
+    {
+      "type": "node",
+      "id": 4352655654,
+      "lat": 53.3395828,
+      "lon": -6.2861602
+    },
+    {
+      "type": "node",
+      "id": 4352655655,
+      "lat": 53.3396477,
+      "lon": -6.2860207
+    },
+    {
+      "type": "node",
+      "id": 4352655656,
+      "lat": 53.3394259,
+      "lon": -6.2858424
+    },
+    {
+      "type": "node",
+      "id": 4352655657,
+      "lat": 53.3395474,
+      "lon": -6.2862215
+    },
+    {
+      "type": "node",
+      "id": 4352655659,
+      "lat": 53.339586,
+      "lon": -6.2859711
+    },
+    {
+      "type": "node",
+      "id": 4427771425,
+      "lat": 53.3450636,
+      "lon": -6.2853199
+    },
+    {
+      "type": "node",
+      "id": 4427771426,
+      "lat": 53.3448734,
+      "lon": -6.2853699
+    },
+    {
+      "type": "node",
+      "id": 4427771427,
+      "lat": 53.3448486,
+      "lon": -6.2850993
+    },
+    {
+      "type": "node",
+      "id": 4427771428,
+      "lat": 53.3449042,
+      "lon": -6.285085
+    },
+    {
+      "type": "node",
+      "id": 4427771430,
+      "lat": 53.3450561,
+      "lon": -6.285241
+    },
+    {
+      "type": "node",
+      "id": 4427771431,
+      "lat": 53.3450281,
+      "lon": -6.2852485
+    },
+    {
+      "type": "node",
+      "id": 4427771432,
+      "lat": 53.3450158,
+      "lon": -6.2850955
+    },
+    {
+      "type": "node",
+      "id": 4427771433,
+      "lat": 53.3449637,
+      "lon": -6.2851048
+    },
+    {
+      "type": "node",
+      "id": 4427771435,
+      "lat": 53.3449605,
+      "lon": -6.2850713
+    },
+    {
+      "type": "node",
+      "id": 5147617458,
+      "lat": 53.3449695,
+      "lon": -6.2853452
+    },
+    {
+      "type": "node",
+      "id": 3563488607,
+      "lat": 53.3378404,
+      "lon": -6.2762396
+    },
+    {
+      "type": "node",
+      "id": 3563488608,
+      "lat": 53.3378399,
+      "lon": -6.2765216
+    },
+    {
+      "type": "node",
+      "id": 3563488609,
+      "lat": 53.3376046,
+      "lon": -6.2765494
+    },
+    {
+      "type": "node",
+      "id": 3563488610,
+      "lat": 53.3376005,
+      "lon": -6.2762367
+    },
+    {
+      "type": "node",
+      "id": 4360968199,
+      "lat": 53.3377547,
+      "lon": -6.2762386
+    },
+    {
+      "type": "node",
+      "id": 4360968200,
+      "lat": 53.3376026,
+      "lon": -6.2763975
+    },
+    {
+      "type": "node",
+      "id": 4360968205,
+      "lat": 53.3378403,
+      "lon": -6.2762948
+    },
+    {
+      "type": "node",
+      "id": 4378925712,
+      "lat": 53.3416112,
+      "lon": -6.2754168
+    },
+    {
+      "type": "node",
+      "id": 4378925713,
+      "lat": 53.3412461,
+      "lon": -6.2762076
+    },
+    {
+      "type": "node",
+      "id": 4378925714,
+      "lat": 53.3414834,
+      "lon": -6.2750126
+    },
+    {
+      "type": "node",
+      "id": 4378925715,
+      "lat": 53.341569,
+      "lon": -6.2750712
+    },
+    {
+      "type": "node",
+      "id": 4378925716,
+      "lat": 53.3416554,
+      "lon": -6.275122
+    },
+    {
+      "type": "node",
+      "id": 4378925717,
+      "lat": 53.3412929,
+      "lon": -6.2762404
+    },
+    {
+      "type": "node",
+      "id": 4378925718,
+      "lat": 53.3414002,
+      "lon": -6.2763128
+    },
+    {
+      "type": "node",
+      "id": 4378925719,
+      "lat": 53.3414693,
+      "lon": -6.276376
+    },
+    {
+      "type": "node",
+      "id": 4378925720,
+      "lat": 53.3412923,
+      "lon": -6.2757742
+    },
+    {
+      "type": "node",
+      "id": 4378925721,
+      "lat": 53.3413553,
+      "lon": -6.2758081
+    },
+    {
+      "type": "node",
+      "id": 4378925722,
+      "lat": 53.341437,
+      "lon": -6.2752426
+    },
+    {
+      "type": "node",
+      "id": 4378925723,
+      "lat": 53.3414598,
+      "lon": -6.275134
+    },
+    {
+      "type": "node",
+      "id": 4378925724,
+      "lat": 53.3412663,
+      "lon": -6.2760181
+    },
+    {
+      "type": "node",
+      "id": 1670320905,
+      "lat": 53.3365596,
+      "lon": -6.2667892
+    },
+    {
+      "type": "node",
+      "id": 1670320915,
+      "lat": 53.3365808,
+      "lon": -6.2665232
+    },
+    {
+      "type": "node",
+      "id": 4913796529,
+      "lat": 53.3548446,
+      "lon": -6.2761757
+    },
+    {
+      "type": "node",
+      "id": 4913796530,
+      "lat": 53.3549735,
+      "lon": -6.2765073
+    },
+    {
+      "type": "node",
+      "id": 4913796531,
+      "lat": 53.3548915,
+      "lon": -6.2765967
+    },
+    {
+      "type": "node",
+      "id": 4913796532,
+      "lat": 53.3547888,
+      "lon": -6.2763326
+    },
+    {
+      "type": "node",
+      "id": 4913796533,
+      "lat": 53.3548127,
+      "lon": -6.2763066
+    },
+    {
+      "type": "node",
+      "id": 4913796534,
+      "lat": 53.3547865,
+      "lon": -6.2762392
+    },
+    {
+      "type": "node",
+      "id": 4818930666,
+      "lat": 53.3496674,
+      "lon": -6.2678578
+    },
+    {
+      "type": "node",
+      "id": 4818930678,
+      "lat": 53.3498107,
+      "lon": -6.2679182
+    },
+    {
+      "type": "node",
+      "id": 4818930679,
+      "lat": 53.3497586,
+      "lon": -6.2681193
+    },
+    {
+      "type": "node",
+      "id": 4818930680,
+      "lat": 53.3496362,
+      "lon": -6.2680667
+    },
+    {
+      "type": "node",
+      "id": 4844594238,
+      "lat": 53.3521219,
+      "lon": -6.2653719
+    },
+    {
+      "type": "node",
+      "id": 4844594239,
+      "lat": 53.3518827,
+      "lon": -6.2654686
+    },
+    {
+      "type": "node",
+      "id": 4844594264,
+      "lat": 53.3521064,
+      "lon": -6.2653462
+    },
+    {
+      "type": "node",
+      "id": 4844594297,
+      "lat": 53.3520345,
+      "lon": -6.2655337
+    },
+    {
+      "type": "node",
+      "id": 4844594299,
+      "lat": 53.3519991,
+      "lon": -6.265292
+    },
+    {
+      "type": "node",
+      "id": 4844594300,
+      "lat": 53.3519738,
+      "lon": -6.2656354
+    },
+    {
+      "type": "node",
+      "id": 4427778268,
+      "lat": 53.3586014,
+      "lon": -6.2721055
+    },
+    {
+      "type": "node",
+      "id": 4427778269,
+      "lat": 53.3587482,
+      "lon": -6.2731021
+    },
+    {
+      "type": "node",
+      "id": 4427778270,
+      "lat": 53.3586095,
+      "lon": -6.2731565
+    },
+    {
+      "type": "node",
+      "id": 4427778271,
+      "lat": 53.3585383,
+      "lon": -6.272622
+    },
+    {
+      "type": "node",
+      "id": 4427778272,
+      "lat": 53.3584741,
+      "lon": -6.272135
+    },
+    {
+      "type": "node",
+      "id": 4427778273,
+      "lat": 53.3584878,
+      "lon": -6.2722385
+    },
+    {
+      "type": "node",
+      "id": 4427778282,
+      "lat": 53.3587271,
+      "lon": -6.2729512
+    },
+    {
+      "type": "node",
+      "id": 4427778283,
+      "lat": 53.3585956,
+      "lon": -6.2730569
+    },
+    {
+      "type": "node",
+      "id": 4427778288,
+      "lat": 53.3585492,
+      "lon": -6.2721126
+    },
+    {
+      "type": "node",
+      "id": 4427778389,
+      "lat": 53.3585511,
+      "lon": -6.2721235
+    },
+    {
+      "type": "node",
+      "id": 4427778391,
+      "lat": 53.3585767,
+      "lon": -6.2721143
+    },
+    {
+      "type": "node",
+      "id": 5071075530,
+      "lat": 53.3459559,
+      "lon": -6.2617615
+    },
+    {
+      "type": "node",
+      "id": 5071075531,
+      "lat": 53.3459969,
+      "lon": -6.261336
+    },
+    {
+      "type": "node",
+      "id": 5071075532,
+      "lat": 53.3459649,
+      "lon": -6.2613336
+    },
+    {
+      "type": "node",
+      "id": 5071075533,
+      "lat": 53.3458759,
+      "lon": -6.2612062
+    },
+    {
+      "type": "node",
+      "id": 5071075534,
+      "lat": 53.3457614,
+      "lon": -6.2611928
+    },
+    {
+      "type": "node",
+      "id": 5071075535,
+      "lat": 53.3457222,
+      "lon": -6.2617158
+    },
+    {
+      "type": "node",
+      "id": 5071075536,
+      "lat": 53.345735,
+      "lon": -6.2617507
+    },
+    {
+      "type": "node",
+      "id": 5071075537,
+      "lat": 53.3459632,
+      "lon": -6.261197
+    },
+    {
+      "type": "node",
+      "id": 5071075538,
+      "lat": 53.3459334,
+      "lon": -6.2611918
+    },
+    {
+      "type": "node",
+      "id": 5071075547,
+      "lat": 53.3459735,
+      "lon": -6.2616306
+    },
+    {
+      "type": "node",
+      "id": 2395473799,
+      "lat": 53.3389068,
+      "lon": -6.2460986
+    },
+    {
+      "type": "node",
+      "id": 2395473800,
+      "lat": 53.3388771,
+      "lon": -6.246125
+    },
+    {
+      "type": "node",
+      "id": 2395473801,
+      "lat": 53.3388653,
+      "lon": -6.2461355
+    },
+    {
+      "type": "node",
+      "id": 2523038645,
+      "lat": 53.3423917,
+      "lon": -6.2491042
+    },
+    {
+      "type": "node",
+      "id": 2523038646,
+      "lat": 53.3424619,
+      "lon": -6.2494232
+    },
+    {
+      "type": "node",
+      "id": 2523038647,
+      "lat": 53.342579,
+      "lon": -6.2489887
+    },
+    {
+      "type": "node",
+      "id": 2523038648,
+      "lat": 53.3426492,
+      "lon": -6.2493076
+    },
+    {
+      "type": "node",
+      "id": 3899147271,
+      "lat": 53.342706,
+      "lon": -6.2466214
+    },
+    {
+      "type": "node",
+      "id": 3899147272,
+      "lat": 53.3427651,
+      "lon": -6.2470179
+    },
+    {
+      "type": "node",
+      "id": 3899147273,
+      "lat": 53.3427894,
+      "lon": -6.2470077
+    },
+    {
+      "type": "node",
+      "id": 3899147274,
+      "lat": 53.342826,
+      "lon": -6.2472514
+    },
+    {
+      "type": "node",
+      "id": 3899147275,
+      "lat": 53.3427538,
+      "lon": -6.2472818
+    },
+    {
+      "type": "node",
+      "id": 3899147276,
+      "lat": 53.342658,
+      "lon": -6.246641
+    },
+    {
+      "type": "node",
+      "id": 4077304406,
+      "lat": 53.3388207,
+      "lon": -6.2458268
+    },
+    {
+      "type": "node",
+      "id": 4077304407,
+      "lat": 53.3387217,
+      "lon": -6.2459149
+    },
+    {
+      "type": "node",
+      "id": 4077304409,
+      "lat": 53.3388866,
+      "lon": -6.2462028
+    },
+    {
+      "type": "node",
+      "id": 4077304413,
+      "lat": 53.3388532,
+      "lon": -6.2459293
+    },
+    {
+      "type": "node",
+      "id": 4416057917,
+      "lat": 53.3388584,
+      "lon": -6.2462279
+    },
+    {
+      "type": "node",
+      "id": 4416057918,
+      "lat": 53.338864,
+      "lon": -6.2462457
+    },
+    {
+      "type": "node",
+      "id": 4416057919,
+      "lat": 53.3387979,
+      "lon": -6.2463045
+    },
+    {
+      "type": "node",
+      "id": 4416057920,
+      "lat": 53.3387251,
+      "lon": -6.2460751
+    },
+    {
+      "type": "node",
+      "id": 4416057921,
+      "lat": 53.3387621,
+      "lon": -6.2460422
+    },
+    {
+      "type": "node",
+      "id": 4416057931,
+      "lat": 53.3387641,
+      "lon": -6.2462016
+    },
+    {
+      "type": "node",
+      "id": 4465709189,
+      "lat": 53.3427504,
+      "lon": -6.2469199
+    },
+    {
+      "type": "node",
+      "id": 4465709190,
+      "lat": 53.3427022,
+      "lon": -6.2469384
+    },
+    {
+      "type": "node",
+      "id": 4465709191,
+      "lat": 53.3427152,
+      "lon": -6.2466848
+    },
+    {
+      "type": "node",
+      "id": 4465709192,
+      "lat": 53.3426671,
+      "lon": -6.246704
+    },
+    {
+      "type": "node",
+      "id": 4465709193,
+      "lat": 53.3427232,
+      "lon": -6.2467389
+    },
+    {
+      "type": "node",
+      "id": 4465709194,
+      "lat": 53.3426752,
+      "lon": -6.2467586
+    },
+    {
+      "type": "node",
+      "id": 4465709195,
+      "lat": 53.3426943,
+      "lon": -6.2468863
+    },
+    {
+      "type": "node",
+      "id": 4465709196,
+      "lat": 53.3427423,
+      "lon": -6.2468667
+    },
+    {
+      "type": "node",
+      "id": 4715529985,
+      "lat": 53.3375783,
+      "lon": -6.2490862
+    },
+    {
+      "type": "node",
+      "id": 4715529986,
+      "lat": 53.3376488,
+      "lon": -6.249278
+    },
+    {
+      "type": "node",
+      "id": 4715529987,
+      "lat": 53.3375807,
+      "lon": -6.2493423
+    },
+    {
+      "type": "node",
+      "id": 4715529988,
+      "lat": 53.3375062,
+      "lon": -6.2491532
+    },
+    {
+      "type": "node",
+      "id": 1186078306,
+      "lat": 53.3452528,
+      "lon": -6.2391343
+    },
+    {
+      "type": "node",
+      "id": 1186078665,
+      "lat": 53.3451176,
+      "lon": -6.2395322
+    },
+    {
+      "type": "node",
+      "id": 1186078928,
+      "lat": 53.3452794,
+      "lon": -6.239501
+    },
+    {
+      "type": "node",
+      "id": 1186079288,
+      "lat": 53.3451038,
+      "lon": -6.2392889
+    },
+    {
+      "type": "node",
+      "id": 4844594240,
+      "lat": 53.352033,
+      "lon": -6.2652243
+    },
+    {
+      "type": "node",
+      "id": 3708443004,
+      "lat": 53.3543506,
+      "lon": -6.2545898
+    },
+    {
+      "type": "node",
+      "id": 3708443005,
+      "lat": 53.3543747,
+      "lon": -6.254887
+    },
+    {
+      "type": "node",
+      "id": 3708443006,
+      "lat": 53.3543714,
+      "lon": -6.2545084
+    },
+    {
+      "type": "node",
+      "id": 3708443007,
+      "lat": 53.3543805,
+      "lon": -6.2544672
+    },
+    {
+      "type": "node",
+      "id": 3708443008,
+      "lat": 53.3544743,
+      "lon": -6.2545189
+    },
+    {
+      "type": "node",
+      "id": 3708443009,
+      "lat": 53.3544629,
+      "lon": -6.2545765
+    },
+    {
+      "type": "node",
+      "id": 3708443010,
+      "lat": 53.3545123,
+      "lon": -6.2546269
+    },
+    {
+      "type": "node",
+      "id": 3708443011,
+      "lat": 53.3544869,
+      "lon": -6.2547195
+    },
+    {
+      "type": "node",
+      "id": 3708443012,
+      "lat": 53.3544126,
+      "lon": -6.254538
+    },
+    {
+      "type": "node",
+      "id": 3708443013,
+      "lat": 53.3543918,
+      "lon": -6.2546193
+    },
+    {
+      "type": "node",
+      "id": 3708443017,
+      "lat": 53.3544386,
+      "lon": -6.2549233
+    },
+    {
+      "type": "node",
+      "id": 3708443019,
+      "lat": 53.3542938,
+      "lon": -6.2548393
+    },
+    {
+      "type": "node",
+      "id": 4935973676,
+      "lat": 53.3626899,
+      "lon": -6.2605629
+    },
+    {
+      "type": "node",
+      "id": 4378928213,
+      "lat": 53.3545513,
+      "lon": -6.2505667
+    },
+    {
+      "type": "node",
+      "id": 4378928214,
+      "lat": 53.3545325,
+      "lon": -6.2505561
+    },
+    {
+      "type": "node",
+      "id": 4378928215,
+      "lat": 53.3542869,
+      "lon": -6.25041
+    },
+    {
+      "type": "node",
+      "id": 4378928216,
+      "lat": 53.3540968,
+      "lon": -6.2513196
+    },
+    {
+      "type": "node",
+      "id": 4378928217,
+      "lat": 53.3543403,
+      "lon": -6.2514621
+    },
+    {
+      "type": "node",
+      "id": 4378928218,
+      "lat": 53.3545202,
+      "lon": -6.2512303
+    },
+    {
+      "type": "node",
+      "id": 4378928219,
+      "lat": 53.3546524,
+      "lon": -6.2506277
+    },
+    {
+      "type": "node",
+      "id": 4378928220,
+      "lat": 53.3541056,
+      "lon": -6.2513247
+    },
+    {
+      "type": "node",
+      "id": 4378928221,
+      "lat": 53.3544726,
+      "lon": -6.251258
+    },
+    {
+      "type": "node",
+      "id": 4378928222,
+      "lat": 53.3543988,
+      "lon": -6.2512124
+    },
+    {
+      "type": "node",
+      "id": 4378928223,
+      "lat": 53.3543822,
+      "lon": -6.2512531
+    },
+    {
+      "type": "node",
+      "id": 4378928224,
+      "lat": 53.3541135,
+      "lon": -6.2513294
+    },
+    {
+      "type": "node",
+      "id": 4378928225,
+      "lat": 53.3544652,
+      "lon": -6.2505182
+    },
+    {
+      "type": "node",
+      "id": 4928107924,
+      "lat": 53.3541167,
+      "lon": -6.2512242
+    },
+    {
+      "type": "node",
+      "id": 4928107929,
+      "lat": 53.3542753,
+      "lon": -6.2504658
+    },
+    {
+      "type": "node",
+      "id": 581595919,
+      "lat": 53.350781,
+      "lon": -6.2448944
+    },
+    {
+      "type": "node",
+      "id": 581595922,
+      "lat": 53.3508126,
+      "lon": -6.2453794
+    },
+    {
+      "type": "node",
+      "id": 581595924,
+      "lat": 53.3505836,
+      "lon": -6.2454206
+    },
+    {
+      "type": "node",
+      "id": 581595926,
+      "lat": 53.3505558,
+      "lon": -6.2449291
+    },
+    {
+      "type": "node",
+      "id": 5090637382,
+      "lat": 53.3706346,
+      "lon": -6.2913492
+    },
+    {
+      "type": "node",
+      "id": 5090637383,
+      "lat": 53.3705692,
+      "lon": -6.2911496
+    },
+    {
+      "type": "node",
+      "id": 5090637384,
+      "lat": 53.3704756,
+      "lon": -6.2912358
+    },
+    {
+      "type": "node",
+      "id": 5090637386,
+      "lat": 53.3705919,
+      "lon": -6.2914515
+    },
+    {
+      "type": "node",
+      "id": 5090637387,
+      "lat": 53.370576,
+      "lon": -6.2914032
+    },
+    {
+      "type": "node",
+      "id": 5999189704,
+      "lat": 53.3689935,
+      "lon": -6.2724311
+    },
+    {
+      "type": "node",
+      "id": 5999189705,
+      "lat": 53.3689392,
+      "lon": -6.2722035
+    },
+    {
+      "type": "node",
+      "id": 5999189706,
+      "lat": 53.3689227,
+      "lon": -6.2721704
+    },
+    {
+      "type": "node",
+      "id": 5999189707,
+      "lat": 53.3688997,
+      "lon": -6.2721511
+    },
+    {
+      "type": "node",
+      "id": 5999189708,
+      "lat": 53.3687902,
+      "lon": -6.2721221
+    },
+    {
+      "type": "node",
+      "id": 5999189709,
+      "lat": 53.3687516,
+      "lon": -6.272278
+    },
+    {
+      "type": "node",
+      "id": 5999189710,
+      "lat": 53.3687656,
+      "lon": -6.2723621
+    },
+    {
+      "type": "node",
+      "id": 5999189711,
+      "lat": 53.36874,
+      "lon": -6.2725786
+    },
+    {
+      "type": "node",
+      "id": 5999189712,
+      "lat": 53.3687433,
+      "lon": -6.2726283
+    },
+    {
+      "type": "node",
+      "id": 5999189713,
+      "lat": 53.3687631,
+      "lon": -6.27266
+    },
+    {
+      "type": "node",
+      "id": 5999189714,
+      "lat": 53.3687845,
+      "lon": -6.2726807
+    },
+    {
+      "type": "node",
+      "id": 5999189715,
+      "lat": 53.3688059,
+      "lon": -6.2726848
+    },
+    {
+      "type": "node",
+      "id": 5999189716,
+      "lat": 53.3689844,
+      "lon": -6.2725552
+    },
+    {
+      "type": "node",
+      "id": 5999189720,
+      "lat": 53.3689891,
+      "lon": -6.2724915
+    },
+    {
+      "type": "node",
+      "id": 4935973677,
+      "lat": 53.3627419,
+      "lon": -6.2607346
+    },
+    {
+      "type": "node",
+      "id": 4935973678,
+      "lat": 53.3631332,
+      "lon": -6.2603684
+    },
+    {
+      "type": "node",
+      "id": 4935973679,
+      "lat": 53.363102,
+      "lon": -6.2601753
+    },
+    {
+      "type": "node",
+      "id": 4935973692,
+      "lat": 53.362847,
+      "lon": -6.2604151
+    },
+    {
+      "type": "node",
+      "id": 4935973693,
+      "lat": 53.3627456,
+      "lon": -6.2605105
+    },
+    {
+      "type": "node",
+      "id": 4935973701,
+      "lat": 53.3631206,
+      "lon": -6.2602901
+    },
+    {
+      "type": "node",
+      "id": 4935973707,
+      "lat": 53.3630608,
+      "lon": -6.2604362
+    },
+    {
+      "type": "node",
+      "id": 4356756438,
+      "lat": 53.3766281,
+      "lon": -6.2511563
+    },
+    {
+      "type": "node",
+      "id": 4356756439,
+      "lat": 53.3765613,
+      "lon": -6.2512054
+    },
+    {
+      "type": "node",
+      "id": 4356756440,
+      "lat": 53.3765047,
+      "lon": -6.2509888
+    },
+    {
+      "type": "node",
+      "id": 5987928624,
+      "lat": 53.3766375,
+      "lon": -6.2508227
+    },
+    {
+      "type": "node",
+      "id": 5987928625,
+      "lat": 53.3765026,
+      "lon": -6.2509165
+    },
+    {
+      "type": "node",
+      "id": 5987928626,
+      "lat": 53.3765181,
+      "lon": -6.2509789
+    },
+    {
+      "type": "node",
+      "id": 5987928627,
+      "lat": 53.3766744,
+      "lon": -6.2509719
+    },
+    {
+      "type": "node",
+      "id": 5987928629,
+      "lat": 53.3766878,
+      "lon": -6.251025
+    },
+    {
+      "type": "node",
+      "id": 5987928632,
+      "lat": 53.3765342,
+      "lon": -6.2508946
+    },
+    {
+      "type": "node",
+      "id": 5987928636,
+      "lat": 53.3767085,
+      "lon": -6.2511083
+    },
+    {
+      "type": "node",
+      "id": 4347971517,
+      "lat": 53.3392988,
+      "lon": -6.2307292
+    },
+    {
+      "type": "node",
+      "id": 4347971518,
+      "lat": 53.339336,
+      "lon": -6.2309744
+    },
+    {
+      "type": "node",
+      "id": 4347971519,
+      "lat": 53.3392381,
+      "lon": -6.2310037
+    },
+    {
+      "type": "node",
+      "id": 4347971520,
+      "lat": 53.3392329,
+      "lon": -6.2309551
+    },
+    {
+      "type": "node",
+      "id": 4347971521,
+      "lat": 53.3390595,
+      "lon": -6.2310071
+    },
+    {
+      "type": "node",
+      "id": 4347971522,
+      "lat": 53.3390387,
+      "lon": -6.2308102
+    },
+    {
+      "type": "node",
+      "id": 4508913556,
+      "lat": 53.339272,
+      "lon": -6.2304882
+    },
+    {
+      "type": "node",
+      "id": 4508913557,
+      "lat": 53.3389635,
+      "lon": -6.2305844
+    },
+    {
+      "type": "node",
+      "id": 4508913558,
+      "lat": 53.3389903,
+      "lon": -6.2308253
+    },
+    {
+      "type": "node",
+      "id": 4508913560,
+      "lat": 53.339045,
+      "lon": -6.2308701
+    },
+    {
+      "type": "node",
+      "id": 4508913562,
+      "lat": 53.3393078,
+      "lon": -6.2307271
+    },
+    {
+      "type": "node",
+      "id": 4508913565,
+      "lat": 53.3392906,
+      "lon": -6.230988
+    },
+    {
+      "type": "node",
+      "id": 4508913567,
+      "lat": 53.3391904,
+      "lon": -6.2309679
+    },
+    {
+      "type": "node",
+      "id": 4508913569,
+      "lat": 53.3391346,
+      "lon": -6.2309846
+    },
+    {
+      "type": "node",
+      "id": 4422901666,
+      "lat": 53.3488898,
+      "lon": -6.2372906
+    },
+    {
+      "type": "node",
+      "id": 4422901667,
+      "lat": 53.3488562,
+      "lon": -6.2367172
+    },
+    {
+      "type": "node",
+      "id": 4422901668,
+      "lat": 53.3487041,
+      "lon": -6.2367423
+    },
+    {
+      "type": "node",
+      "id": 4422901669,
+      "lat": 53.3487378,
+      "lon": -6.2373156
+    },
+    {
+      "type": "node",
+      "id": 4407177887,
+      "lat": 53.3503133,
+      "lon": -6.2352897
+    },
+    {
+      "type": "node",
+      "id": 4407178789,
+      "lat": 53.3503439,
+      "lon": -6.2357627
+    },
+    {
+      "type": "node",
+      "id": 6257803571,
+      "lat": 53.3505316,
+      "lon": -6.2357286
+    },
+    {
+      "type": "node",
+      "id": 6257803572,
+      "lat": 53.3505009,
+      "lon": -6.2352556
+    },
+    {
+      "type": "node",
+      "id": 6257803575,
+      "lat": 53.350439,
+      "lon": -6.2352668
+    },
+    {
+      "type": "node",
+      "id": 4647452441,
+      "lat": 53.3532764,
+      "lon": -6.2260645
+    },
+    {
+      "type": "node",
+      "id": 5602593593,
+      "lat": 53.3532525,
+      "lon": -6.2260235
+    },
+    {
+      "type": "node",
+      "id": 4647452439,
+      "lat": 53.3534332,
+      "lon": -6.2258104
+    },
+    {
+      "type": "node",
+      "id": 4647452440,
+      "lat": 53.352943,
+      "lon": -6.2254924
+    },
+    {
+      "type": "node",
+      "id": 4647452448,
+      "lat": 53.353104,
+      "lon": -6.2252353
+    },
+    {
+      "type": "node",
+      "id": 5602593596,
+      "lat": 53.3529606,
+      "lon": -6.2255226
+    },
+    {
+      "type": "node",
+      "id": 5602600645,
+      "lat": 53.3511541,
+      "lon": -6.2254848
+    },
+    {
+      "type": "node",
+      "id": 5602600646,
+      "lat": 53.3511629,
+      "lon": -6.2256505
+    },
+    {
+      "type": "node",
+      "id": 5602600647,
+      "lat": 53.3511098,
+      "lon": -6.2256585
+    },
+    {
+      "type": "node",
+      "id": 5602600648,
+      "lat": 53.351101,
+      "lon": -6.2254928
+    },
+    {
+      "type": "node",
+      "id": 3643359386,
+      "lat": 53.3394748,
+      "lon": -6.2063411
+    },
+    {
+      "type": "node",
+      "id": 3643359388,
+      "lat": 53.3405037,
+      "lon": -6.2066839
+    },
+    {
+      "type": "node",
+      "id": 4428030877,
+      "lat": 53.3404837,
+      "lon": -6.2067772
+    },
+    {
+      "type": "node",
+      "id": 4428030879,
+      "lat": 53.340475,
+      "lon": -6.206697
+    },
+    {
+      "type": "node",
+      "id": 4428030880,
+      "lat": 53.3403593,
+      "lon": -6.2068457
+    },
+    {
+      "type": "node",
+      "id": 4428030881,
+      "lat": 53.3396196,
+      "lon": -6.2071645
+    },
+    {
+      "type": "node",
+      "id": 4428030884,
+      "lat": 53.3391079,
+      "lon": -6.2073974
+    },
+    {
+      "type": "node",
+      "id": 4927961658,
+      "lat": 53.3392879,
+      "lon": -6.2064195
+    },
+    {
+      "type": "node",
+      "id": 4927961659,
+      "lat": 53.3389645,
+      "lon": -6.2065547
+    },
+    {
+      "type": "node",
+      "id": 4927961661,
+      "lat": 53.3390649,
+      "lon": -6.207383
+    },
+    {
+      "type": "node",
+      "id": 4927961662,
+      "lat": 53.3389696,
+      "lon": -6.2067766
+    },
+    {
+      "type": "node",
+      "id": 4927961663,
+      "lat": 53.338953,
+      "lon": -6.2066388
+    },
+    {
+      "type": "node",
+      "id": 4927961664,
+      "lat": 53.338953,
+      "lon": -6.2065764
+    },
+    {
+      "type": "node",
+      "id": 4927961665,
+      "lat": 53.3390362,
+      "lon": -6.2073302
+    },
+    {
+      "type": "node",
+      "id": 3643359375,
+      "lat": 53.3404073,
+      "lon": -6.2059632
+    },
+    {
+      "type": "node",
+      "id": 4352151762,
+      "lat": 53.3407278,
+      "lon": -6.2059586
+    },
+    {
+      "type": "node",
+      "id": 4352151763,
+      "lat": 53.3407152,
+      "lon": -6.2058639
+    },
+    {
+      "type": "node",
+      "id": 4352151764,
+      "lat": 53.3405659,
+      "lon": -6.2059198
+    },
+    {
+      "type": "node",
+      "id": 4352151765,
+      "lat": 53.3405785,
+      "lon": -6.2060144
+    },
+    {
+      "type": "node",
+      "id": 4427697591,
+      "lat": 53.3404374,
+      "lon": -6.2061884
+    },
+    {
+      "type": "node",
+      "id": 4213849747,
+      "lat": 53.349458,
+      "lon": -6.2113244
+    },
+    {
+      "type": "node",
+      "id": 4213849748,
+      "lat": 53.3494386,
+      "lon": -6.2108782
+    },
+    {
+      "type": "node",
+      "id": 4213849749,
+      "lat": 53.3491382,
+      "lon": -6.2109092
+    },
+    {
+      "type": "node",
+      "id": 4213849750,
+      "lat": 53.3491635,
+      "lon": -6.2113993
+    },
+    {
+      "type": "node",
+      "id": 4213849751,
+      "lat": 53.349387,
+      "lon": -6.2113765
+    },
+    {
+      "type": "node",
+      "id": 4213849752,
+      "lat": 53.3493861,
+      "lon": -6.2113358
+    },
+    {
+      "type": "node",
+      "id": 4213849755,
+      "lat": 53.3491495,
+      "lon": -6.211138
+    },
+    {
+      "type": "node",
+      "id": 4213849756,
+      "lat": 53.349154,
+      "lon": -6.2112364
+    },
+    {
+      "type": "node",
+      "id": 638726696,
+      "lat": 53.3386144,
+      "lon": -6.1992483
+    },
+    {
+      "type": "node",
+      "id": 638726697,
+      "lat": 53.3383682,
+      "lon": -6.1993434
+    },
+    {
+      "type": "node",
+      "id": 638726709,
+      "lat": 53.3385508,
+      "lon": -6.1987861
+    },
+    {
+      "type": "node",
+      "id": 638726710,
+      "lat": 53.3383045,
+      "lon": -6.1988813
+    },
+    {
+      "type": "node",
+      "id": 638727300,
+      "lat": 53.339135,
+      "lon": -6.1869604
+    },
+    {
+      "type": "node",
+      "id": 638727308,
+      "lat": 53.3394148,
+      "lon": -6.186966
+    },
+    {
+      "type": "node",
+      "id": 4056480918,
+      "lat": 53.338373,
+      "lon": -6.1883859
+    },
+    {
+      "type": "node",
+      "id": 4056480919,
+      "lat": 53.3383765,
+      "lon": -6.1881192
+    },
+    {
+      "type": "node",
+      "id": 4056480920,
+      "lat": 53.3384391,
+      "lon": -6.1881215
+    },
+    {
+      "type": "node",
+      "id": 4056480921,
+      "lat": 53.3384411,
+      "lon": -6.1879685
+    },
+    {
+      "type": "node",
+      "id": 4056480922,
+      "lat": 53.3382884,
+      "lon": -6.187963
+    },
+    {
+      "type": "node",
+      "id": 4056480923,
+      "lat": 53.338283,
+      "lon": -6.1883826
+    },
+    {
+      "type": "node",
+      "id": 4358105353,
+      "lat": 53.3377748,
+      "lon": -6.1903688
+    },
+    {
+      "type": "node",
+      "id": 4358105354,
+      "lat": 53.337785,
+      "lon": -6.1898015
+    },
+    {
+      "type": "node",
+      "id": 4427858675,
+      "lat": 53.3384411,
+      "lon": -6.1886532
+    },
+    {
+      "type": "node",
+      "id": 4427858676,
+      "lat": 53.3387673,
+      "lon": -6.1886448
+    },
+    {
+      "type": "node",
+      "id": 4427858677,
+      "lat": 53.3387386,
+      "lon": -6.1911002
+    },
+    {
+      "type": "node",
+      "id": 4427858679,
+      "lat": 53.3381227,
+      "lon": -6.1910754
+    },
+    {
+      "type": "node",
+      "id": 4427858680,
+      "lat": 53.3377855,
+      "lon": -6.1897279
+    },
+    {
+      "type": "node",
+      "id": 4427858681,
+      "lat": 53.3378191,
+      "lon": -6.1896367
+    },
+    {
+      "type": "node",
+      "id": 4427858682,
+      "lat": 53.3383012,
+      "lon": -6.1888428
+    },
+    {
+      "type": "node",
+      "id": 4415747031,
+      "lat": 53.3503951,
+      "lon": -6.2117568
+    },
+    {
+      "type": "node",
+      "id": 4415747032,
+      "lat": 53.3503865,
+      "lon": -6.2115147
+    },
+    {
+      "type": "node",
+      "id": 4415747033,
+      "lat": 53.3504395,
+      "lon": -6.2115095
+    },
+    {
+      "type": "node",
+      "id": 4415747034,
+      "lat": 53.3504359,
+      "lon": -6.21141
+    },
+    {
+      "type": "node",
+      "id": 4415747035,
+      "lat": 53.3502955,
+      "lon": -6.211424
+    },
+    {
+      "type": "node",
+      "id": 4415747036,
+      "lat": 53.3503077,
+      "lon": -6.2117655
+    },
+    {
+      "type": "node",
+      "id": 4424206730,
+      "lat": 53.3630703,
+      "lon": -6.2281308
+    },
+    {
+      "type": "node",
+      "id": 4424206731,
+      "lat": 53.3629756,
+      "lon": -6.2279977
+    },
+    {
+      "type": "node",
+      "id": 4424206732,
+      "lat": 53.3633704,
+      "lon": -6.2272391
+    },
+    {
+      "type": "node",
+      "id": 4424206733,
+      "lat": 53.3634738,
+      "lon": -6.2273678
+    },
+    {
+      "type": "node",
+      "id": 4424206743,
+      "lat": 53.3633581,
+      "lon": -6.2272626
+    },
+    {
+      "type": "node",
+      "id": 4471815488,
+      "lat": 53.3644564,
+      "lon": -6.2286334
+    },
+    {
+      "type": "node",
+      "id": 4471815789,
+      "lat": 53.3644122,
+      "lon": -6.2288704
+    },
+    {
+      "type": "node",
+      "id": 4471815790,
+      "lat": 53.3644579,
+      "lon": -6.2288943
+    },
+    {
+      "type": "node",
+      "id": 4471815791,
+      "lat": 53.364511,
+      "lon": -6.2289207
+    },
+    {
+      "type": "node",
+      "id": 4471815792,
+      "lat": 53.3645555,
+      "lon": -6.2289439
+    },
+    {
+      "type": "node",
+      "id": 4471815793,
+      "lat": 53.3645994,
+      "lon": -6.2287083
+    },
+    {
+      "type": "node",
+      "id": 4471815794,
+      "lat": 53.3644844,
+      "lon": -6.2289074
+    },
+    {
+      "type": "node",
+      "id": 598232097,
+      "lat": 53.3690653,
+      "lon": -6.1935109
+    },
+    {
+      "type": "node",
+      "id": 3266796181,
+      "lat": 53.3690868,
+      "lon": -6.1939675
+    },
+    {
+      "type": "node",
+      "id": 3359518306,
+      "lat": 53.3691595,
+      "lon": -6.1934986
+    },
+    {
+      "type": "node",
+      "id": 3266796205,
+      "lat": 53.3695022,
+      "lon": -6.1939141
+    },
+    {
+      "type": "node",
+      "id": 3488809253,
+      "lat": 53.3694803,
+      "lon": -6.1934568
+    },
+    {
+      "type": "node",
+      "id": 4427939420,
+      "lat": 53.3694877,
+      "lon": -6.1936103
+    },
+    {
+      "type": "node",
+      "id": 638727309,
+      "lat": 53.3391412,
+      "lon": -6.1860922
+    },
+    {
+      "type": "node",
+      "id": 638727315,
+      "lat": 53.339421,
+      "lon": -6.1860978
+    },
+    {
+      "type": "node",
+      "id": 3467999257,
+      "lat": 53.3812452,
+      "lon": -6.1766558
+    },
+    {
+      "type": "node",
+      "id": 4465700877,
+      "lat": 53.3814512,
+      "lon": -6.1762143
+    },
+    {
+      "type": "node",
+      "id": 4465700878,
+      "lat": 53.3813576,
+      "lon": -6.1767105
+    },
+    {
+      "type": "node",
+      "id": 4465700879,
+      "lat": 53.38134,
+      "lon": -6.1761607
+    },
+    {
+      "type": "node",
+      "id": 1873100750,
+      "lat": 53.38963,
+      "lon": -6.264297
+    },
+    {
+      "type": "node",
+      "id": 3059742622,
+      "lat": 53.3894092,
+      "lon": -6.2636522
+    },
+    {
+      "type": "node",
+      "id": 4368929533,
+      "lat": 53.3891965,
+      "lon": -6.2642911
+    },
+    {
+      "type": "node",
+      "id": 4368929534,
+      "lat": 53.3892632,
+      "lon": -6.2643787
+    },
+    {
+      "type": "node",
+      "id": 4368929535,
+      "lat": 53.3893287,
+      "lon": -6.2644077
+    },
+    {
+      "type": "node",
+      "id": 4368929536,
+      "lat": 53.389422,
+      "lon": -6.2643966
+    },
+    {
+      "type": "node",
+      "id": 4368929537,
+      "lat": 53.3891467,
+      "lon": -6.2641231
+    },
+    {
+      "type": "node",
+      "id": 4368929539,
+      "lat": 53.3894311,
+      "lon": -6.2636436
+    },
+    {
+      "type": "node",
+      "id": 4368929541,
+      "lat": 53.3895121,
+      "lon": -6.2636077
+    },
+    {
+      "type": "node",
+      "id": 4368929544,
+      "lat": 53.3891257,
+      "lon": -6.2639737
+    },
+    {
+      "type": "node",
+      "id": 5140975477,
+      "lat": 53.3890979,
+      "lon": -6.2637759
+    },
+    {
+      "type": "node",
+      "id": 5337558058,
+      "lat": 53.3891148,
+      "lon": -6.2638959
+    },
+    {
+      "type": "node",
+      "id": 4427769083,
+      "lat": 53.3961568,
+      "lon": -6.2435312
+    },
+    {
+      "type": "node",
+      "id": 4427769084,
+      "lat": 53.39616,
+      "lon": -6.2434266
+    },
+    {
+      "type": "node",
+      "id": 4427769085,
+      "lat": 53.3961448,
+      "lon": -6.243334
+    },
+    {
+      "type": "node",
+      "id": 4427769086,
+      "lat": 53.3961048,
+      "lon": -6.2431007
+    },
+    {
+      "type": "node",
+      "id": 4427769087,
+      "lat": 53.3963423,
+      "lon": -6.2430216
+    },
+    {
+      "type": "node",
+      "id": 4427769088,
+      "lat": 53.3963879,
+      "lon": -6.243436
+    },
+    {
+      "type": "node",
+      "id": 4427784701,
+      "lat": 53.3961532,
+      "lon": -6.2433816
+    },
+    {
+      "type": "node",
+      "id": 6033413263,
+      "lat": 53.3961454,
+      "lon": -6.2430872
+    },
+    {
+      "type": "node",
+      "id": 6033413264,
+      "lat": 53.396319,
+      "lon": -6.2430249
+    },
+    {
+      "type": "node",
+      "id": 6033413267,
+      "lat": 53.3961949,
+      "lon": -6.2430705
+    },
+    {
+      "type": "node",
+      "id": 6050242234,
+      "lat": 53.3963742,
+      "lon": -6.2434417
+    },
+    {
+      "type": "node",
+      "id": 6050242239,
+      "lat": 53.3961575,
+      "lon": -6.2435096
+    },
+    {
+      "type": "node",
+      "id": 609484021,
+      "lat": 53.4028818,
+      "lon": -6.2220524
+    },
+    {
+      "type": "node",
+      "id": 609484028,
+      "lat": 53.4031092,
+      "lon": -6.2212047
+    },
+    {
+      "type": "node",
+      "id": 609484032,
+      "lat": 53.4031862,
+      "lon": -6.2219682
+    },
+    {
+      "type": "node",
+      "id": 4427842635,
+      "lat": 53.4028409,
+      "lon": -6.2214674
+    },
+    {
+      "type": "node",
+      "id": 4427842636,
+      "lat": 53.4028234,
+      "lon": -6.2214877
+    },
+    {
+      "type": "node",
+      "id": 4427842637,
+      "lat": 53.402917,
+      "lon": -6.2214412
+    },
+    {
+      "type": "node",
+      "id": 4427842638,
+      "lat": 53.4029004,
+      "lon": -6.2212626
+    },
+    {
+      "type": "node",
+      "id": 4427842669,
+      "lat": 53.4031175,
+      "lon": -6.2212871
+    },
+    {
+      "type": "node",
+      "id": 6550204231,
+      "lat": 53.4082124,
+      "lon": -6.2241115
+    },
+    {
+      "type": "node",
+      "id": 6550204232,
+      "lat": 53.4082133,
+      "lon": -6.2237092
+    },
+    {
+      "type": "node",
+      "id": 6550204233,
+      "lat": 53.4076113,
+      "lon": -6.2236974
+    },
+    {
+      "type": "node",
+      "id": 6550204234,
+      "lat": 53.4076111,
+      "lon": -6.224085
+    },
+    {
+      "type": "node",
+      "id": 6551929043,
+      "lat": 53.4079601,
+      "lon": -6.2240888
+    },
+    {
+      "type": "node",
+      "id": 6551929044,
+      "lat": 53.4080001,
+      "lon": -6.2241117
+    },
+    {
+      "type": "node",
+      "id": 374510334,
+      "lat": 53.3931582,
+      "lon": -6.1958169
+    },
+    {
+      "type": "node",
+      "id": 374510347,
+      "lat": 53.3926984,
+      "lon": -6.1966031
+    },
+    {
+      "type": "node",
+      "id": 4378877077,
+      "lat": 53.3933027,
+      "lon": -6.1954399
+    },
+    {
+      "type": "node",
+      "id": 4378877078,
+      "lat": 53.3934974,
+      "lon": -6.1957434
+    },
+    {
+      "type": "node",
+      "id": 4378877079,
+      "lat": 53.3933064,
+      "lon": -6.1960653
+    },
+    {
+      "type": "node",
+      "id": 4378877081,
+      "lat": 53.393119,
+      "lon": -6.1957511
+    },
+    {
+      "type": "node",
+      "id": 5974026998,
+      "lat": 53.3932281,
+      "lon": -6.1955663
+    },
+    {
+      "type": "node",
+      "id": 5974027003,
+      "lat": 53.392681,
+      "lon": -6.1965702
+    },
+    {
+      "type": "node",
+      "id": 5974027004,
+      "lat": 53.3926537,
+      "lon": -6.1965343
+    },
+    {
+      "type": "node",
+      "id": 4358622748,
+      "lat": 53.3993296,
+      "lon": -6.1524812
+    },
+    {
+      "type": "node",
+      "id": 4358622749,
+      "lat": 53.3999505,
+      "lon": -6.1519359
+    },
+    {
+      "type": "node",
+      "id": 4358622750,
+      "lat": 53.3999358,
+      "lon": -6.1517017
+    },
+    {
+      "type": "node",
+      "id": 4358622751,
+      "lat": 53.399291,
+      "lon": -6.1517418
+    },
+    {
+      "type": "node",
+      "id": 4358622752,
+      "lat": 53.3993094,
+      "lon": -6.1523241
+    },
+    {
+      "type": "node",
+      "id": 4358622753,
+      "lat": 53.3993241,
+      "lon": -6.152358
+    },
+    {
+      "type": "node",
+      "id": 4358622754,
+      "lat": 53.3999543,
+      "lon": -6.1524833
+    },
+    {
+      "type": "node",
+      "id": 4358622755,
+      "lat": 53.3996161,
+      "lon": -6.1524812
+    },
+    {
+      "type": "node",
+      "id": 4358622785,
+      "lat": 53.399756,
+      "lon": -6.1517129
+    },
+    {
+      "type": "node",
+      "id": 4358622786,
+      "lat": 53.3995914,
+      "lon": -6.1517231
+    },
+    {
+      "type": "node",
+      "id": 4358623289,
+      "lat": 53.3992949,
+      "lon": -6.1518656
+    },
+    {
+      "type": "node",
+      "id": 4358623291,
+      "lat": 53.3993799,
+      "lon": -6.1517363
+    },
+    {
+      "type": "node",
+      "id": 4358623293,
+      "lat": 53.3993262,
+      "lon": -6.1524054
+    }
+  ]
+}
