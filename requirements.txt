@@ -11,6 +11,6 @@ django-pwa==1.0.5
 jsonfield==2.0.2
 pip==19.0.3
 pytz==2019.3
-setuptools==40.8.0
+setuptools==65.5.1
 six==1.12.0
 sqlparse==0.3.0
